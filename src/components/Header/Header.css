@@ -1,11 +1,20 @@
 .header{
     display: flex;
-    justify-content: right;
-    background-color: #004793;
-    padding: 0.3rem;
+    flex-direction: column;
+}
+.header-links{
+    display: flex;
     gap: 1rem;
     padding-right: 2rem;
     padding-left: 2rem;
+    padding: 0.3rem;
+    background-color: #004793;
+    justify-content: right;
+}
+.header-img{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
 }
 .icon-facebook,.icon-instagram,.icon-twitter,.icon-youtube{
     color:white;
