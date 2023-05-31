@@ -51,6 +51,16 @@ import HowSupplements from './containers/Supplements/HowSupplements/HowSupplemen
 import OtherSupplements from './containers/Supplements/Other/OtherSupplements'
 import ProteinsSupplements from './containers/Supplements/Proteins/ProteinsSupplements'
 import VitaminsAndMineralsSupplements from './containers/Supplements/VitaminsAndMinerals/VitaminsAndMineralsSupplements'
+import MuscleDefinitionDiet from './containers/Diet/MuscleDefinition/MuscleDefinitionDiet'
+import MuscularTimeDiet from './containers/Diet/MuscularTime/MuscularTimeDiet'
+import DietsAndNutritionWomen from './containers/Women/DietsAndNutrition/DietsAndNutritionWomen'
+import RoutinesWomen from './containers/Women/Routines/RoutinesWomen'
+import WeightsAndTrainingWomen from './containers/Women/WeightsAndTraining/WeightsAndTrainingWomen'
+import BurnCaloriesObjetive from './containers/Objetive/BurnCalories/BurnCaloriesObjetive'
+import GainMuscleMassObjetive from './containers/Objetive/GainMuscleMass/GainMuscleMassObjetive'
+import GainWeightObjetive from './containers/Objetive/GainWeight/GainWeightObjetive'
+import LoseWeigthObjetive from './containers/Objetive/LoseWeigth/LoseWeigthObjetive'
+import MuscleDefinitionObjetive from './containers/Objetive/MuscleDefinition/MuscleDefinitionObjetive'
 
 function App() {
   
@@ -108,16 +118,16 @@ function App() {
         <Route path="/suplementos-otros" element={<OtherSupplements/>}></Route>
         <Route path="/suplementos-proteinas" element={<ProteinsSupplements/>}></Route>
         <Route path="/suplementos-vitaminas-y-minerales" element={<VitaminsAndMineralsSupplements/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
+        <Route path="/dietas-masa-muscular" element={<MuscleDefinitionDiet/>}></Route>
+        <Route path="/dietas-definicion-muscular" element={<MuscularTimeDiet/>}></Route>
+        <Route path="/mujer-dietas-y-nutricion" element={<DietsAndNutritionWomen/>}></Route>
+        <Route path="/mujer-rutinas" element={<RoutinesWomen/>}></Route>
+        <Route path="/mujer-pesas-y-entrenamientos" element={<WeightsAndTrainingWomen/>}></Route>
+        <Route path="/objetivo-quemar-grasa" element={<BurnCaloriesObjetive/>}></Route>
+        <Route path="/objetivo-ganar-masa-muscular" element={<GainMuscleMassObjetive/>}></Route>
+        <Route path="/objetivo-ganar-peso" element={<GainWeightObjetive/>}></Route>
+        <Route path="/objetivo-perder-peso" element={<LoseWeigthObjetive/>}></Route>
+        <Route path="/objetivo-definicion-muscular" element={<MuscleDefinitionObjetive/>}></Route>
       </Routes>
     <Footer/>
    </BrowserRouter>

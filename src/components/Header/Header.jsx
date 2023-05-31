@@ -183,64 +183,40 @@ const Header = () => {
                                     Otros Suplementos
                                 </NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title="Entrenamiento" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/musculacion">
-                                    Musculación
+                            <NavDropdown title="Dietas" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="/dietas-masa-muscular">
+                                    Masa Muscular
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/entrenamiento-alta-intensidad">
-                                    Hit
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/principiantes">
-                                    Principiantes
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/ejercicio-aerobico">
-                                    Ejercicio Aerobico
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/culturistas">
-                                    Culturistas
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/estiramientos">
-                                    Estiramientos
+                                <NavDropdown.Item href="/dietas-definicion-muscular">
+                                    Definicion Muscular
                                 </NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title="Entrenamiento" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/musculacion">
-                                    Musculación
+                            <NavDropdown title="Mujer" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="/mujer-dietas-y-nutricion">
+                                    Dietas y nutrición
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/entrenamiento-alta-intensidad">
-                                    Hit
+                                <NavDropdown.Item href="/mujer-pesas-y-entrenamientos">
+                                    Pesas y Entramientos
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/principiantes">
-                                    Principiantes
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/ejercicio-aerobico">
-                                    Ejercicio Aerobico
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/culturistas">
-                                    Culturistas
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/estiramientos">
-                                    Estiramientos
+                                <NavDropdown.Item href="/mujer-rutinas">
+                                    Rutinas
                                 </NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title="Entrenamiento" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/musculacion">
-                                    Musculación
+                            <NavDropdown title="Objetivos" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="/objetivo-quemar-grasa">
+                                    Quemar Grasa
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/entrenamiento-alta-intensidad">
-                                    Hit
+                                <NavDropdown.Item href="/objetivo-ganar-masa-muscular">
+                                    Ganar Masa Muscular
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/principiantes">
-                                    Principiantes
+                                <NavDropdown.Item href="/objetivo-ganar-peso">
+                                    Ganar Peso
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/ejercicio-aerobico">
-                                    Ejercicio Aerobico
+                                <NavDropdown.Item href="/objetivo-perder-peso">
+                                    Perder Peso
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/culturistas">
-                                    Culturistas
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/estiramientos">
-                                    Estiramientos
+                                <NavDropdown.Item href="/objetivo-definicion-muscular">
+                                    Definición Muscular
                                 </NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
