@@ -7,7 +7,7 @@ const Inicio = () => {
 
         <div className="inicio">
             <div>
-                Bienvenido
+                
             </div>
         </div>
     )
