@@ -5,6 +5,28 @@
     margin: 0;
     padding: 0;
 }
+.me-auto{
+    gap:1rem;
+}
+.dropdown{
+    width: 100%;
+    transition:2s;
+    position: relative;
+}
+.dropdown::after{
+    content: "";
+    transform:scale(0);
+    opacity:0;
+}
+.dropdown:hover::after{
+    opacity:1;
+    border-bottom: 3px solid blue;
+    width: 100%;
+    position:absolute;
+    transform:scale(1);
+    transform-origin:bottom center;
+    transition:transform 0.2s ease-in-out;
+}
 .header-links{
     display: flex;
     gap: 1rem;
@@ -26,5 +48,10 @@
     color:white;
     font-size: 0.8rem;
     text-decoration: none;
+}
+.icon-search{
+    padding-left: 2rem;
+    font-size: 1rem;
+    cursor:pointer;
 }
 

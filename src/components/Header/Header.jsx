@@ -27,7 +27,7 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <NavDropdown title="Entrenamiento" id="basic-nav-dropdown">
+                            <NavDropdown className="dropdown" title="Entrenamiento" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/musculacion">
                                     Musculación
                                 </NavDropdown.Item>
@@ -220,6 +220,7 @@ const Header = () => {
                                 </NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
+                    <span className="icon-search"></span>
                     </Navbar.Collapse>
                 </Container>
                 </Navbar>
