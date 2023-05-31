@@ -25,6 +25,32 @@ import FullBodyRoutines from './containers/Routines/FullBody/FullBodyRoutines'
 import HomeRoutines from './containers/Routines/Home/HomeRoutines'
 import StrengthRoutines from './containers/Routines/Strength/StrengthRoutines'
 import VolumeRoutines from './containers/Routines/Volume/VolumeRoutines'
+import AbdominalExercises from './containers/Exercises/Abdominal/AbdominalExercises'
+import BackExercises from './containers/Exercises/Back/BackExercises'
+import BasicExercises from './containers/Exercises/Basic/BasicExercises'
+import BicepsExercises from './containers/Exercises/Biceps/BicepsExercises'
+import ChestExercises from './containers/Exercises/Chest/ChestExercises'
+import ElasticBandsExercises from './containers/Exercises/ElasticBands/ElasticBandsExercises'
+import ForearmExercises from './containers/Exercises/Forearm/ForearmExercises'
+import LegExercises from './containers/Exercises/Leg/LegExercises'
+import ShoulderExercises from './containers/Exercises/Shoulder/ShoulderExercises'
+import ShoulderRotatorExercises from './containers/Exercises/ShoulderRotator/ShoulderRotatorExercises'
+import TrapeziusExercises from './containers/Exercises/Trapezius/TrapeziusExercises'
+import TricepsExercises from './containers/Exercises/Triceps/TricepsExercises'
+import BodyBuilderNutrition from './containers/Nutrition/BodyBuilder/BodyBuilderNutrition'
+import CarbohydratesNutrition from './containers/Nutrition/Carbohydrates/CarbohydratesNutrition'
+import FatsNutrition from './containers/Nutrition/Fats/FatsNutrition'
+import HealthyLivingNutrition from './containers/Nutrition/HealthyLiving/HealthyLivingNutrition'
+import ProteinsNutrition from './containers/Nutrition/Proteins/ProteinsNutrition'
+import AminoAcidsSupplements from './containers/Supplements/AminoAcids/AminoAcidsSupplements'
+import BuyProteinsSupplements from './containers/Supplements/BuyProteins/BuyProteinsSupplements'
+import CaffeineSupplements from './containers/Supplements/Caffeine/CaffeineSupplements'
+import CreatineSupplements from './containers/Supplements/Creatine/CreatineSupplements'
+import GlutamineSupplements from './containers/Supplements/Glutamine/GlutamineSupplements'
+import HowSupplements from './containers/Supplements/HowSupplements/HowSupplements'
+import OtherSupplements from './containers/Supplements/Other/OtherSupplements'
+import ProteinsSupplements from './containers/Supplements/Proteins/ProteinsSupplements'
+import VitaminsAndMineralsSupplements from './containers/Supplements/VitaminsAndMinerals/VitaminsAndMineralsSupplements'
 
 function App() {
   
@@ -56,32 +82,32 @@ function App() {
         <Route path="/rutinas-en-casa" element={<HomeRoutines/>}></Route>
         <Route path="/rutinas-fuerza" element={<StrengthRoutines/>}></Route>
         <Route path="/rutinas-volumen" element={<VolumeRoutines/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
-        <Route path="/" element={<Inicio/>}></Route>
+        <Route path="/ejercicios-abdominal" element={<AbdominalExercises/>}></Route>
+        <Route path="/ejercicios-espalda" element={<BackExercises/>}></Route>
+        <Route path="/ejercicios-basicos" element={<BasicExercises/>}></Route>
+        <Route path="/ejercicios-biceps" element={<BicepsExercises/>}></Route>
+        <Route path="/ejercicios-pecho" element={<ChestExercises/>}></Route>
+        <Route path="/ejercicios-bandas-elasticas" element={<ElasticBandsExercises/>}></Route>
+        <Route path="/ejercicios-antebrazo" element={<ForearmExercises/>}></Route>
+        <Route path="/ejercicios-pierna" element={<LegExercises/>}></Route>
+        <Route path="/ejercicios-hombro" element={<ShoulderExercises/>}></Route>
+        <Route path="/ejercicios-rotador-hombro" element={<ShoulderRotatorExercises/>}></Route>
+        <Route path="/ejercicios-trapecio" element={<TrapeziusExercises/>}></Route>
+        <Route path="/ejercicios-triceps" element={<TricepsExercises/>}></Route>
+        <Route path="/nutricion-culturista" element={<BodyBuilderNutrition/>}></Route>
+        <Route path="/nutricion-carbohidratos" element={<CarbohydratesNutrition/>}></Route>
+        <Route path="/nutricion-grasas" element={<FatsNutrition/>}></Route>
+        <Route path="/nutricion-y-vida-saludable" element={<HealthyLivingNutrition/>}></Route>
+        <Route path="/nutricion-proteinas" element={<ProteinsNutrition/>}></Route>
+        <Route path="/suplementos-aminoacidos" element={<AminoAcidsSupplements/>}></Route>
+        <Route path="/suplementos-comprar-proteinas" element={<BuyProteinsSupplements/>}></Route>
+        <Route path="/suplementos-cafeina" element={<CaffeineSupplements/>}></Route>
+        <Route path="/suplementos-creatina" element={<CreatineSupplements/>}></Route>
+        <Route path="/suplementos-glutamina" element={<GlutamineSupplements/>}></Route>
+        <Route path="/suplementos-como-suplementarse" element={<HowSupplements/>}></Route>
+        <Route path="/suplementos-otros" element={<OtherSupplements/>}></Route>
+        <Route path="/suplementos-proteinas" element={<ProteinsSupplements/>}></Route>
+        <Route path="/suplementos-vitaminas-y-minerales" element={<VitaminsAndMineralsSupplements/>}></Route>
         <Route path="/" element={<Inicio/>}></Route>
         <Route path="/" element={<Inicio/>}></Route>
         <Route path="/" element={<Inicio/>}></Route>

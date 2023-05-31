@@ -7,7 +7,7 @@ const BuyProteinsSupplements = () => {
 
         <div className="buyProteinsSupplements">
             <div>
-            BuyProteinsSupplements
+                BuyProteinsSupplements
             </div>
         </div>
     )

@@ -77,9 +77,6 @@ const Header = () => {
                                 <NavDropdown.Item href="/rutinas-abdominal">
                                     Rutinas Abdominal
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/otras-rutinas">
-                                    Otras Rutinas
-                                </NavDropdown.Item>
                                 <NavDropdown.Item href="/rutinas-principiantes">
                                     Rutinas Principiantes
                                 </NavDropdown.Item>
@@ -90,7 +87,7 @@ const Header = () => {
                                     Rutinas FullBody
                                 </NavDropdown.Item>
                                 <NavDropdown.Item href="/rutinas-en-casa">
-                                    Rutinas en casa
+                                    Rutinas en Casa
                                 </NavDropdown.Item>
                                 <NavDropdown.Item href="/rutinas-fuerza">
                                     Rutinas de Fuerza
@@ -98,65 +95,92 @@ const Header = () => {
                                 <NavDropdown.Item href="/rutinas-volumen">
                                     Rutinas de Volumen
                                 </NavDropdown.Item>
-                            </NavDropdown>
-                            <NavDropdown title="Entrenamiento" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/musculacion">
-                                    Musculación
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/entrenamiento-alta-intensidad">
-                                    Hit
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/principiantes">
-                                    Principiantes
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/ejercicio-aerobico">
-                                    Ejercicio Aerobico
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/culturistas">
-                                    Culturistas
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/estiramientos">
-                                    Estiramientos
+                                <NavDropdown.Item href="/otras-rutinas">
+                                    Otras Rutinas
                                 </NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title="Entrenamiento" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/musculacion">
-                                    Musculación
+                            <NavDropdown title="Ejercicios" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="/ejercicios-abdominal">
+                                    Ejercicios Abdominal
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/entrenamiento-alta-intensidad">
-                                    Hit
+                                <NavDropdown.Item href="/ejercicios-espalda">
+                                    Ejercicios de Espalda
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/principiantes">
-                                    Principiantes
+                                <NavDropdown.Item href="/ejercicios-basicos">
+                                    Ejercicios Basicos
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/ejercicio-aerobico">
-                                    Ejercicio Aerobico
+                                <NavDropdown.Item href="/ejercicios-biceps">
+                                    Ejercicios de Biceps
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/culturistas">
-                                    Culturistas
+                                <NavDropdown.Item href="/ejercicios-pecho">
+                                    Ejercicios de Pecho
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/estiramientos">
-                                    Estiramientos
+                                <NavDropdown.Item href="/ejercicios-bandas-elasticas">
+                                    Ejercicios con Bandas Elasticas
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="/ejercicios-antebrazo">
+                                    Ejercicios Antebrazo
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="/ejercicios-pierna">
+                                    Ejercicios de Pierna
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="/ejercicios-hombro">
+                                    Ejercicios de Hombro
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="/ejercicios-rotador-hombro">
+                                    Ejercicios de Rotador de Hombro
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="/ejercicios-trapecio">
+                                    Ejercicios de Trapecio
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="/ejercicios-triceps">
+                                    Ejercicios de Triceps
                                 </NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title="Entrenamiento" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/musculacion">
-                                    Musculación
+                            <NavDropdown title="Nutricion" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="/nutricion-culturista">
+                                    Nutrición Culturista
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/entrenamiento-alta-intensidad">
-                                    Hit
+                                <NavDropdown.Item href="/nutricion-y-vida-saludable">
+                                    Nutricion y Vida Saludable
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/principiantes">
-                                    Principiantes
+                                <NavDropdown.Item href="/nutricion-carbohidratos">
+                                    Carbohidratos
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/ejercicio-aerobico">
-                                    Ejercicio Aerobico
+                                <NavDropdown.Item href="/nutricion-grasas">
+                                    Grasas
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/culturistas">
-                                    Culturistas
+                                <NavDropdown.Item href="/nutricion-proteinas">
+                                    Proteinas
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/estiramientos">
-                                    Estiramientos
+                            </NavDropdown>
+                            <NavDropdown title="Suplementos" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="/suplementos-como-suplementarse">
+                                    Como Suplementarse
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="/suplementos-vitaminas-y-minerales">
+                                    Vitaminas y minerales
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="/suplementos-aminoacidos">
+                                    Aminoácidos
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="/suplementos-cafeina">
+                                    Cafeína
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="/suplementos-creatina">
+                                    Creatina
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="/suplementos-glutamina">
+                                    Glutamina
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="/suplementos-proteinas">
+                                    Proteínas
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="/suplementos-comprar-proteinas">
+                                    Comprar Proteínas
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="/suplementos-otros">
+                                    Otros Suplementos
                                 </NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title="Entrenamiento" id="basic-nav-dropdown">
