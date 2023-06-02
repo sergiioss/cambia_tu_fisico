@@ -59,6 +59,9 @@ ol, ul{
 #menu ul span.nivel1 { 
 	display: inline-flex;
     white-space: nowrap;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: black;
 }
 
 #menu ul li a.nivel2 {
@@ -68,6 +71,7 @@ ol, ul{
 #menu ul li a.nivel1, #menu ul li a.nivel2 {
 	display: block;
 	position: relative;
+   
 }
 
 #menu ul li, #menu ul .nivel1{
@@ -116,5 +120,6 @@ ol, ul{
 	position: relative;
 }
 .desplegable{
-    padding-bottom: 1rem;
+    padding-bottom: 0.8rem;
+    font-size: 0.9rem;
 }

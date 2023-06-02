@@ -35,7 +35,7 @@ const Header = () => {
                                             <a className="desplegable" href="/principiantes">Principiantes</a>
                                             <a className="desplegable" href="/ejercicio-aerobico">Ejercicio Aerobico</a>
                                             <a className="desplegable" href="/culturistas">Culturistas</a>
-                                            <a href="/estiramientos">Estiramientos</a>
+                                            <a className="desplegable" href="/estiramientos">Estiramientos</a>
                                         </ul>
                                     </li>
                                     <li className="nivel1"><span className="nivel1">Por Músculo</span>
@@ -47,7 +47,7 @@ const Header = () => {
                                             <a className="desplegable" href="/pierna">Entrenamieno de Pierna</a>
                                             <a className="desplegable" href="/rotador">Entrenamieno de Rotador</a>
                                             <a className="desplegable" href="/hombro">Entrenamieno de Hombro</a>
-                                            <a href="/triceps">Entrenamieno de Triceps</a>
+                                            <a className="desplegable"href="/triceps">Entrenamieno de Triceps</a>
                                         </ul>
                                     </li>
                                     <li className="nivel1"><span className="nivel1">Rutinas</span>
@@ -59,7 +59,7 @@ const Header = () => {
                                             <a className="desplegable" href="/rutinas-en-casa">Rutinas en Casa</a>
                                             <a className="desplegable" href="/rutinas-fuerza">Rutinas de Fuerza</a>
                                             <a className="desplegable" href="/rutinas-volumen">Rutinas de Volumen</a>
-                                            <a href="/otras-rutinas">Otras Rutinas</a>
+                                            <a className="desplegable" href="/otras-rutinas">Otras Rutinas</a>
                                         </ul>
                                     </li>
                                     <li className="nivel1"><span href="#" className="nivel1">Ejercicios</span>
@@ -75,7 +75,7 @@ const Header = () => {
                                             <a className="desplegable" href="/ejercicios-hombro">Ejercicios de Hombro</a>
                                             <a className="desplegable" href="/ejercicios-rotador-hombro">Ejercicios de Rotador de Hombro</a>
                                             <a className="desplegable" href="/ejercicios-trapecio">Ejercicios de Trapecio</a>
-                                            <a href="/ejerciEjercicios">Ejercicios de Triceps</a>
+                                            <a className="desplegable" href="/ejerciEjercicios">Ejercicios de Triceps</a>
                                         </ul>
                                     </li>
                                     <li className="nivel1"><span href="#" className="nivel1">Nutricion</span>
@@ -96,7 +96,7 @@ const Header = () => {
                                             <a className="desplegable" href="/suplementos-creatina">Suplementos Creatina</a>
                                             <a className="desplegable" href="/suplementos-glutamina">Suplementos Glutamina</a>
                                             <a className="desplegable" href="/suplementos-proteinas">Suplementos Proteinas</a>
-                                            <a href="/suplementos-comprar-proteinas">Comprar Proteínas </a>
+                                            <a className="desplegable" href="/suplementos-comprar-proteinas">Comprar Proteínas </a>
                                             <a className="desplegable" href="/suplementos-otros">Otros Suplementos</a>
                                         </ul>
                                     </li>
