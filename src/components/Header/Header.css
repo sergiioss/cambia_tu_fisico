@@ -5,6 +5,15 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration:none;
+    color: black;
+}
+
+a:hover{
+    color:blue
+}
+
 .me-auto{
     gap:1rem;
 }
@@ -59,6 +68,10 @@
     height: 20rem;
     background-color: red;
 }
+#menu ul{
+    display: flex;
+}
+
 
 
 

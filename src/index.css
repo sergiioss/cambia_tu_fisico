@@ -29,28 +29,27 @@ ol, ul{
     border-right: 0.3em solid transparent;
     border-bottom: 0;
     border-left: 0.3em solid transparent;
+    margin-right: 1rem;
 }
 #menu ul {
 	list-style-type: none;
 }
 
-#menu ul li a {
+#menu ul li ul {
 	display: block;
 	text-decoration: none;
-	color: #fff;
-	background-color: rgba(59,93,148,1);
-	border: solid 1px #fff;
+	color: #061af4;
 	padding: 8px;
 	position: relative;
+    border:1px solid rgb(248, 245, 245); 
+    background-color: rgb(255, 255, 255);
 }
 
-#menu ul li ul li a {
-	padding: 8px 0px;
-	border-top-color: transparent;
-    margin-top:1rem;
-}
 #menu ul li ul {
 	display: none;
+}
+#menu ul li div{
+    display: none;
 }
 
 #menu ul li ul li ul li a.primera {
@@ -59,6 +58,7 @@ ol, ul{
 
 #menu ul span.nivel1 { 
 	display: inline-flex;
+    white-space: nowrap;
 }
 
 #menu ul li a.nivel2 {
@@ -70,20 +70,21 @@ ol, ul{
 	position: relative;
 }
 
-#menu ul li{
+#menu ul li, #menu ul .nivel1{
     width: 100%;
     transition:2s;
     position: relative;
 }
 #menu ul li::after{
     content: " ";
+    display: block;
     transform:scale(0);
     opacity:0;
-    display: block;
 }
 #menu ul li:hover::after {
 	opacity:1;
-    border-bottom: 3px solid blue;
+    padding-bottom: 0.2rem;
+    border-bottom: 3px solid rgb(0, 21, 255);
     width: 100%;
     position:absolute;
     transform:scale(1);
@@ -91,18 +92,29 @@ ol, ul{
     transition:transform 0.3s ease-in-out;
 }
 
-#menu ul li a:hover, #menu ul li:hover a.nivel1 {
-	background-color: rgb(102, 202, 204);
-	color: #000;
+#menu ul li a:hover, #menu ul li:hover a.nivel1{
 	position: relative;
 }
 
 #menu ul li:hover  ul.nivel2, #menu ul li a:hover  ul.nivel2{
-	display: block;
-	position: absolute;left: 0px;
+	position: absolute;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 0.4rem;
+    padding-right: 2rem;
+    width: auto;
+    white-space:nowrap;
+}
+#menu ul li div:hover{
+    display: block;
 }
 
 #menu ul li ul li a:hover {
 	border-top-color: #000;
 	position: relative;
+}
+.desplegable{
+    padding-bottom: 1rem;
 }

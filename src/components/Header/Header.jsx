@@ -9,230 +9,125 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Header = () => {
-  
+
     return (
         <Container className="header">
-                <Col className="header-links">
-                    <Link className="icon-facebook" to="https://www.facebook.com/CambiatufisicoWeb/"></Link>
-                    <Link className="icon-instagram" to="https://www.instagram.com/cambiatufisico_/"></Link>
-                    <Link className="icon-twitter" to="https://twitter.com/cambiatufisico"></Link>
-                    <Link className="icon-youtube" to="https://www.youtube.com/c/Cambiatufisicoweb"></Link>
-                </Col>
-                <Col className="header-img">
-                    <Image src={logoPagina} className="header-img-logo"></Image>
-                </Col>
-                <Navbar expand="lg">
+            <Col className="header-links">
+                <Link className="icon-facebook" to="https://www.facebook.com/CambiatufisicoWeb/"></Link>
+                <Link className="icon-instagram" to="https://www.instagram.com/cambiatufisico_/"></Link>
+                <Link className="icon-twitter" to="https://twitter.com/cambiatufisico"></Link>
+                <Link className="icon-youtube" to="https://www.youtube.com/c/Cambiatufisicoweb"></Link>
+            </Col>
+            <Col className="header-img">
+                <Image src={logoPagina} className="header-img-logo"></Image>
+            </Col>
+            <Navbar expand="lg">
                 <Container>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <div id="menu">
                                 <ul>
-                                    <li className="nivel1"><span href="#" className="nivel1">Entrenamiento</span>
+                                    <li className="nivel1"><span className="nivel1">Entrenamiento</span>
                                         <ul className="nivel2">
-                                            <li><a href="/musculacion">Musculación</a></li>
-                                            <li><a href="#">Menú 1.2</a></li>
+                                            <a className="desplegable" href="/musculacion">Musculación</a>
+                                            <a className="desplegable" href="/entrenamiento-alta-intensidad">Hit</a>
+                                            <a className="desplegable" href="/principiantes">Principiantes</a>
+                                            <a className="desplegable" href="/ejercicio-aerobico">Ejercicio Aerobico</a>
+                                            <a className="desplegable" href="/culturistas">Culturistas</a>
+                                            <a href="/estiramientos">Estiramientos</a>
+                                        </ul>
+                                    </li>
+                                    <li className="nivel1"><span className="nivel1">Por Músculo</span>
+                                        <ul className="nivel2">
+                                            <a className="desplegable" href="/abdominal">Entrenamieno de Abdominal</a>
+                                            <a className="desplegable" href="/espalda">Entrenamieno de Espalda</a>
+                                            <a className="desplegable" href="/biceps">Entrenamieno de Biceps</a>
+                                            <a className="desplegable" href="/pecho">Entrenamieno de Pecho</a>
+                                            <a className="desplegable" href="/pierna">Entrenamieno de Pierna</a>
+                                            <a className="desplegable" href="/rotador">Entrenamieno de Rotador</a>
+                                            <a className="desplegable" href="/hombro">Entrenamieno de Hombro</a>
+                                            <a href="/triceps">Entrenamieno de Triceps</a>
+                                        </ul>
+                                    </li>
+                                    <li className="nivel1"><span className="nivel1">Rutinas</span>
+                                        <ul className="nivel2">
+                                            <a className="desplegable" href="/rutinas-abdominal">Rutinas Abdominal</a>
+                                            <a className="desplegable" href="/rutinas-principiantes">Rutinas Principiantes</a>
+                                            <a className="desplegable" href="/rutinas-definicion">Rutinas Definicion</a>
+                                            <a className="desplegable" href="/rutinas-fullbody">Rutinas Fullbdoy</a>
+                                            <a className="desplegable" href="/rutinas-en-casa">Rutinas en Casa</a>
+                                            <a className="desplegable" href="/rutinas-fuerza">Rutinas de Fuerza</a>
+                                            <a className="desplegable" href="/rutinas-volumen">Rutinas de Volumen</a>
+                                            <a href="/otras-rutinas">Otras Rutinas</a>
+                                        </ul>
+                                    </li>
+                                    <li className="nivel1"><span href="#" className="nivel1">Ejercicios</span>
+                                        <ul className="nivel2">
+                                            <a className="desplegable" href="/ejercicios-abdominal">Ejercicios de Abdominal</a>
+                                            <a className="desplegable" href="/ejercicios-espalda">Ejercicios de Espalda</a>
+                                            <a className="desplegable" href="/ejercicios-basicos">Ejercicios Basicos</a>
+                                            <a className="desplegable" href="/ejercicios-biceps">Ejercicios de Biceps</a>
+                                            <a className="desplegable" href="/ejercicios-pecho">Ejercicios de Pecho</a>
+                                            <a className="desplegable" href="/ejercicios-bandas-elasticas">Ejercicios Bandas Elásticas</a>
+                                            <a className="desplegable" href="/ejercicios-antebrazo">Ejercicios de Antebrazo</a>
+                                            <a className="desplegable" href="/ejercicios-pierna">Ejercicios de Pierna</a>
+                                            <a className="desplegable" href="/ejercicios-hombro">Ejercicios de Hombro</a>
+                                            <a className="desplegable" href="/ejercicios-rotador-hombro">Ejercicios de Rotador de Hombro</a>
+                                            <a className="desplegable" href="/ejercicios-trapecio">Ejercicios de Trapecio</a>
+                                            <a href="/ejerciEjercicios">Ejercicios de Triceps</a>
+                                        </ul>
+                                    </li>
+                                    <li className="nivel1"><span href="#" className="nivel1">Nutricion</span>
+                                        <ul className="nivel2">
+                                            <a className="desplegable" href="/nutricion-culturista">Nutrición Culturista</a>
+                                            <a className="desplegable" href="/nutricion-y-vida-saludable">Nutrición y Vida Saludable</a>
+                                            <a className="desplegable" href="/nutricion-carbohidratos">Carbohidratos</a>
+                                            <a className="desplegable" href="/nutricion-grasas">Grasas</a>
+                                            <a className="desplegable" href="/nutricion-proteinas">Proteínas</a>
+                                        </ul>
+                                    </li>
+                                    <li className="nivel1"><span href="#" className="nivel1">Suplementos</span>
+                                        <ul className="nivel2">
+                                            <a className="desplegable" href="/suplementos-como-suplementarse">Como Suplementarse</a>
+                                            <a className="desplegable" href="/suplementos-vitaminas-y-minerales">Vitaminas y minerales</a>
+                                            <a className="desplegable" href="/suplementos-aminoacidos">Aminoacidos</a>
+                                            <a className="desplegable" href="/suplementos-cafeina">Suplementos Cafeína</a>
+                                            <a className="desplegable" href="/suplementos-creatina">Suplementos Creatina</a>
+                                            <a className="desplegable" href="/suplementos-glutamina">Suplementos Glutamina</a>
+                                            <a className="desplegable" href="/suplementos-proteinas">Suplementos Proteinas</a>
+                                            <a href="/suplementos-comprar-proteinas">Comprar Proteínas </a>
+                                            <a className="desplegable" href="/suplementos-otros">Otros Suplementos</a>
+                                        </ul>
+                                    </li>
+                                    <li className="nivel1"><span href="#" className="nivel1">Dietas</span>
+                                        <ul className="nivel2">
+                                            <a className="desplegable" href="/dietas-masa-muscular">Masa Muscular</a>
+                                            <a className="desplegable" href="/dietas-definicion-muscular">Definición Muscular</a>
+                                        </ul>
+                                    </li>
+                                    <li className="nivel1"><span href="#" className="nivel1">Mujer</span>
+                                        <ul className="nivel2">
+                                            <a className="desplegable" href="/mujer-dietas-y-nutricion">Dietas y nutrición</a>
+                                            <a className="desplegable" href="/mujer-pesas-y-entrenamientos">Pesas y Entramientos</a>
+                                        </ul>
+                                    </li>
+                                    <li className="nivel1"><span href="#" className="nivel1">Objetivos</span>
+                                        <ul className="nivel2">
+                                            <a className="desplegable" href="/objetivo-quemar-grasa">Quemar Grasa</a>
+                                            <a className="desplegable" href="/objetivo-ganar-masa-muscular">Ganar Masa Muscular</a>
+                                            <a className="desplegable" href="/objetivo-ganar-peso">Ganar Peso</a>
+                                            <a className="desplegable" href="/objetivo-perder-peso">Perder Peso</a>
+                                            <a className="desplegable" href="/objetivo-definicion-muscular">Definición Muscular</a>
                                         </ul>
                                     </li>
                                 </ul>
                             </div>
-                            {/* <NavDropdown title="Entrenamiento" id="basic-nav-dropdown">
-                                        <NavDropdown.Item id="example-collapse-text" href="/musculacion">
-                                            Musculación
-                                        </NavDropdown.Item>
-                                        <NavDropdown.Item id="example-collapse-text" href="/entrenamiento-alta-intensidad">
-                                            Hit
-                                        </NavDropdown.Item>
-                                        <NavDropdown.Item id="example-collapse-text" href="/principiantes">
-                                            Principiantes
-                                        </NavDropdown.Item>
-                                        <NavDropdown.Item id="example-collapse-text" href="/ejercicio-aerobico">
-                                            Ejercicio Aerobico
-                                        </NavDropdown.Item>
-                                        <NavDropdown.Item id="example-collapse-text" href="/culturistas">
-                                            Culturistas
-                                        </NavDropdown.Item>
-                                        <NavDropdown.Item id="example-collapse-text" href="/estiramientos">
-                                            Estiramientos
-                                        </NavDropdown.Item>
-                            </NavDropdown> */}
-                            <NavDropdown title="Por Músculo" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/abdominal">
-                                    Abdominal
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/espalda">
-                                    Espalda
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/biceps">
-                                    Biceps
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/pecho">
-                                    Pecho
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/pierna">
-                                    Pierna
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/rotador">
-                                    Rotador
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/hombro">
-                                    Hombro
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/triceps">
-                                    Triceps
-                                </NavDropdown.Item>
-                            </NavDropdown>
-                            <NavDropdown title="Rutinas" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/rutinas-abdominal">
-                                    Rutinas Abdominal
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/rutinas-principiantes">
-                                    Rutinas Principiantes
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/rutinas-definicion">
-                                    Rutinas Definicion
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/rutinas-fullbody">
-                                    Rutinas FullBody
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/rutinas-en-casa">
-                                    Rutinas en Casa
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/rutinas-fuerza">
-                                    Rutinas de Fuerza
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/rutinas-volumen">
-                                    Rutinas de Volumen
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/otras-rutinas">
-                                    Otras Rutinas
-                                </NavDropdown.Item>
-                            </NavDropdown>
-                            <NavDropdown title="Ejercicios" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/ejercicios-abdominal">
-                                    Ejercicios Abdominal
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/ejercicios-espalda">
-                                    Ejercicios de Espalda
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/ejercicios-basicos">
-                                    Ejercicios Basicos
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/ejercicios-biceps">
-                                    Ejercicios de Biceps
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/ejercicios-pecho">
-                                    Ejercicios de Pecho
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/ejercicios-bandas-elasticas">
-                                    Ejercicios con Bandas Elasticas
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/ejercicios-antebrazo">
-                                    Ejercicios Antebrazo
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/ejercicios-pierna">
-                                    Ejercicios de Pierna
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/ejercicios-hombro">
-                                    Ejercicios de Hombro
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/ejercicios-rotador-hombro">
-                                    Ejercicios de Rotador de Hombro
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/ejercicios-trapecio">
-                                    Ejercicios de Trapecio
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/ejercicios-triceps">
-                                    Ejercicios de Triceps
-                                </NavDropdown.Item>
-                            </NavDropdown>
-                            <NavDropdown title="Nutricion" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/nutricion-culturista">
-                                    Nutrición Culturista
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/nutricion-y-vida-saludable">
-                                    Nutricion y Vida Saludable
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/nutricion-carbohidratos">
-                                    Carbohidratos
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/nutricion-grasas">
-                                    Grasas
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/nutricion-proteinas">
-                                    Proteinas
-                                </NavDropdown.Item>
-                            </NavDropdown>
-                            <NavDropdown title="Suplementos" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/suplementos-como-suplementarse">
-                                    Como Suplementarse
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/suplementos-vitaminas-y-minerales">
-                                    Vitaminas y minerales
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/suplementos-aminoacidos">
-                                    Aminoácidos
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/suplementos-cafeina">
-                                    Cafeína
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/suplementos-creatina">
-                                    Creatina
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/suplementos-glutamina">
-                                    Glutamina
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/suplementos-proteinas">
-                                    Proteínas
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/suplementos-comprar-proteinas">
-                                    Comprar Proteínas
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/suplementos-otros">
-                                    Otros Suplementos
-                                </NavDropdown.Item>
-                            </NavDropdown>
-                            <NavDropdown title="Dietas" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/dietas-masa-muscular">
-                                    Masa Muscular
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/dietas-definicion-muscular">
-                                    Definicion Muscular
-                                </NavDropdown.Item>
-                            </NavDropdown>
-                            <NavDropdown title="Mujer" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/mujer-dietas-y-nutricion">
-                                    Dietas y nutrición
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/mujer-pesas-y-entrenamientos">
-                                    Pesas y Entramientos
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/mujer-rutinas">
-                                    Rutinas
-                                </NavDropdown.Item>
-                            </NavDropdown>
-                            <NavDropdown title="Objetivos" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/objetivo-quemar-grasa">
-                                    Quemar Grasa
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/objetivo-ganar-masa-muscular">
-                                    Ganar Masa Muscular
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/objetivo-ganar-peso">
-                                    Ganar Peso
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/objetivo-perder-peso">
-                                    Perder Peso
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/objetivo-definicion-muscular">
-                                    Definición Muscular
-                                </NavDropdown.Item>
-                            </NavDropdown>
+                            <span className="icon-search"></span>
                         </Nav>
-                    <span className="icon-search"></span>
                     </Navbar.Collapse>
                 </Container>
-                </Navbar>
+            </Navbar>
         </Container>
     )
 }
