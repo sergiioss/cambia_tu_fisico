@@ -1,7 +1,6 @@
 import './Header.css'
 import { Link } from 'react-router-dom'
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import logoPagina from '../../Assets/images/logoPagina.jpg';
@@ -10,7 +9,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Header = () => {
-
+  
     return (
         <Container className="header">
                 <Col className="header-links">
@@ -27,26 +26,36 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <NavDropdown className="dropdown" title="Entrenamiento" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/musculacion">
-                                    Musculación
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/entrenamiento-alta-intensidad">
-                                    Hit
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/principiantes">
-                                    Principiantes
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/ejercicio-aerobico">
-                                    Ejercicio Aerobico
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/culturistas">
-                                    Culturistas
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="/estiramientos">
-                                    Estiramientos
-                                </NavDropdown.Item>
-                            </NavDropdown>
+                            <div id="menu">
+                                <ul>
+                                    <li className="nivel1"><span href="#" className="nivel1">Entrenamiento</span>
+                                        <ul className="nivel2">
+                                            <li><a href="/musculacion">Musculación</a></li>
+                                            <li><a href="#">Menú 1.2</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            {/* <NavDropdown title="Entrenamiento" id="basic-nav-dropdown">
+                                        <NavDropdown.Item id="example-collapse-text" href="/musculacion">
+                                            Musculación
+                                        </NavDropdown.Item>
+                                        <NavDropdown.Item id="example-collapse-text" href="/entrenamiento-alta-intensidad">
+                                            Hit
+                                        </NavDropdown.Item>
+                                        <NavDropdown.Item id="example-collapse-text" href="/principiantes">
+                                            Principiantes
+                                        </NavDropdown.Item>
+                                        <NavDropdown.Item id="example-collapse-text" href="/ejercicio-aerobico">
+                                            Ejercicio Aerobico
+                                        </NavDropdown.Item>
+                                        <NavDropdown.Item id="example-collapse-text" href="/culturistas">
+                                            Culturistas
+                                        </NavDropdown.Item>
+                                        <NavDropdown.Item id="example-collapse-text" href="/estiramientos">
+                                            Estiramientos
+                                        </NavDropdown.Item>
+                            </NavDropdown> */}
                             <NavDropdown title="Por Músculo" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/abdominal">
                                     Abdominal

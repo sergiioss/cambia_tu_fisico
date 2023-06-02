@@ -25,7 +25,7 @@
     position:absolute;
     transform:scale(1);
     transform-origin:bottom center;
-    transition:transform 0.2s ease-in-out;
+    transition:transform 0.3s ease-in-out;
 }
 .header-links{
     display: flex;
@@ -54,4 +54,11 @@
     font-size: 1rem;
     cursor:pointer;
 }
+.pesao{
+    width: 20rem;
+    height: 20rem;
+    background-color: red;
+}
+
+
 
