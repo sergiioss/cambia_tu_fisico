@@ -61,13 +61,35 @@ import GainMuscleMassObjetive from './containers/Objetive/GainMuscleMass/GainMus
 import GainWeightObjetive from './containers/Objetive/GainWeight/GainWeightObjetive'
 import LoseWeigthObjetive from './containers/Objetive/LoseWeigth/LoseWeigthObjetive'
 import MuscleDefinitionObjetive from './containers/Objetive/MuscleDefinition/MuscleDefinitionObjetive'
+import { useEffect, useState } from 'react'
 
 function App() {
+
+  const [scroll, setScroll] = useState({
+    hiddin:""
+  });
+
   const goToTop = () => {
     document.body.scrollIntoView({
       behavior:"smooth"
     });
   };
+  const handleScroll = () =>{
+    if(window.scrollY > 0){
+      setScroll({
+        hiddin:""
+      })
+    }else{
+      setScroll({
+        hiddin:"hiddin"
+      })
+    }
+  }
+  
+  useEffect(()=>{
+    window.addEventListener('scroll', handleScroll)
+  },[])
+  
 
   return (
    <BrowserRouter>
@@ -133,7 +155,7 @@ function App() {
         <Route path="/objetivo-perder-peso" element={<LoseWeigthObjetive/>}></Route>
         <Route path="/objetivo-definicion-muscular" element={<MuscleDefinitionObjetive/>}></Route>
       </Routes>
-      <button className="back-to-top hidden back-to-top-icon" onClick={goToTop}><span className="icon-circle-up"></span></button>
+      <button className={`back-to-top ${scroll.hiddin}`} onClick={goToTop}><span className="icon-circle-up"></span></button>
     <Footer/>
    </BrowserRouter>
   )
