@@ -24,6 +24,15 @@ const Inicio = () => {
                     <a href="google.com" className="subtitle" target="blank">Batidos de proteínas, que son y cuales debemos comprar</a>
                 </Col>
             </Row>
+            <Row className="routines-gym">
+                <span className="title-routines-gym">RUTINAS DE GIMNASIO EFECTIVAS</span>
+                <p>
+                    En cambiatufisico.com estamos especializados en rutinas de gimnasio y en técnicas de musculación tanto para principiantes que se    acaban de apuntar al gimnasio como para los más avanzados. 
+                </p>
+                <p>
+                    Las rutinas de gimnasio no solo se pueden realizar en un centro de Fitness, también puedes realizarlas en tu casa, por eso tenemos además una completa selección de rutinas de pesas para hacer en casa.
+                </p>
+            </Row>
         </Container>
     )
 }
