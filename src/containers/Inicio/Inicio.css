@@ -1,0 +1,43 @@
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+.block-images{
+    width: 80%;
+}
+.first-image,.second-image,.third-image{
+    display: flex;
+    position: relative;
+    border:5px solid white;
+    box-sizing: border-box;
+    padding: 0;
+    overflow: hidden;
+    transition:all 500ms ease;
+}
+
+.img-fluid:hover{
+    transition:0.4s;
+    transform:scale(1.2);
+    overflow:none;
+}
+
+.subtitle{
+    position: absolute;
+    bottom:0;
+    background-color: rgb(32, 83, 236, 0.6);
+    color:rgb(255, 255, 255);
+    font-weight: 700;
+    width: 100%;
+}
+.subtitle:hover{
+    color:rgb(255, 255, 255);
+}
+
+

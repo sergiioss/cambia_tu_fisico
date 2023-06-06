@@ -66,7 +66,7 @@ import { useEffect, useState } from 'react'
 function App() {
 
   const [scroll, setScroll] = useState({
-    hiddin:""
+    hiddin:"hiddin"
   });
 
   const goToTop = () => {
