@@ -22,7 +22,7 @@ const Header = () => {
                 <Image src={logoPagina} className="header-img-logo"></Image>
             </Col>
             <Navbar expand="lg">
-                <Container>
+                <Container className="container-navbar">
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">

@@ -63,7 +63,11 @@ import LoseWeigthObjetive from './containers/Objetive/LoseWeigth/LoseWeigthObjet
 import MuscleDefinitionObjetive from './containers/Objetive/MuscleDefinition/MuscleDefinitionObjetive'
 
 function App() {
-  
+  const goToTop = () => {
+    document.body.scrollIntoView({
+      behavior:"smooth"
+    });
+  };
 
   return (
    <BrowserRouter>
@@ -129,6 +133,7 @@ function App() {
         <Route path="/objetivo-perder-peso" element={<LoseWeigthObjetive/>}></Route>
         <Route path="/objetivo-definicion-muscular" element={<MuscleDefinitionObjetive/>}></Route>
       </Routes>
+      <button className="back-to-top hidden back-to-top-icon" onClick={goToTop}><span className="icon-circle-up"></span></button>
     <Footer/>
    </BrowserRouter>
   )

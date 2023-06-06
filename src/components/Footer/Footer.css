@@ -1,0 +1,27 @@
+
+.footer{
+    display: flex;
+    width: 100%;
+}
+.icon-github{
+    width: 50%;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.links-privacy{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 1rem;
+}
+
+.link-github{
+    color: white;
+    font-size: 0.7rem;
+}
