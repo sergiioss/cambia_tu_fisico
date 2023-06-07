@@ -1,3 +1,5 @@
+@import './styles/variables.scss';
+
 body{
     margin:0;
     padding: 0;
@@ -38,12 +40,11 @@ ol, ul{
 #menu ul li ul {
 	display: block;
 	text-decoration: none;
-	color: #061af4;
 	padding: 8px;
 	position: relative;
-    border:1px solid rgb(248, 245, 245); 
-    background-color: rgb(255, 255, 255);
-}
+    border:1px solid $white; 
+    background-color: $white;
+} 
 
 #menu ul li ul {
 	display: none;
@@ -53,7 +54,7 @@ ol, ul{
 }
 
 #menu ul li ul li ul li a.primera {
-	border-top-color: #fff;
+	border-top-color: $white;
 }
 
 #menu ul span.nivel1 { 
@@ -61,11 +62,11 @@ ol, ul{
     white-space: nowrap;
     font-weight: 700;
     font-size: 0.9rem;
-    color: black;
+    color: $black;
 }
 
 #menu ul li a.nivel2 {
-	color: #000;
+	color: $black;
 }
 
 #menu ul li a.nivel1, #menu ul li a.nivel2 {
@@ -88,7 +89,7 @@ ol, ul{
 #menu ul li:hover::after {
 	opacity:1;
     padding-bottom: 0.2rem;
-    border-bottom: 3px solid rgb(0, 21, 255);
+    border-bottom: 3px solid $blue;
     width: 100%;
     position:absolute;
     transform:scale(1);
@@ -116,7 +117,7 @@ ol, ul{
 }
 
 #menu ul li ul li a:hover {
-	border-top-color: #000;
+	border-top-color: $black;
 	position: relative;
 }
 .desplegable{

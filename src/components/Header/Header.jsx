@@ -1,4 +1,4 @@
-import './Header.css'
+import './Header.scss'
 import { Link } from 'react-router-dom'
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -6,7 +6,6 @@ import Image from 'react-bootstrap/Image';
 import logoPagina from '../../Assets/images/logoPagina.jpg';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Header = () => {
 

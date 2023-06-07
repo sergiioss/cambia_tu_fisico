@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 .header,.container{
     display: flex;
     flex-direction: column;
@@ -8,11 +10,11 @@
 }
 a{
     text-decoration:none;
-    color: black;
+    color: $black;
 }
 
 a:hover{
-    color:blue
+    color:$blue-teal;
 }
 
 .me-auto{
@@ -30,7 +32,7 @@ a:hover{
 }
 .dropdown:hover::after{
     opacity:1;
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid $blue;
     width: 100%;
     position:absolute;
     transform:scale(1);
@@ -41,7 +43,7 @@ a:hover{
     display: flex;
     gap: 1rem;
     justify-content: right;
-    background-color: #004793;
+    background-color: $blue;
     padding: 0.4rem;
     align-items: right;
     padding-right: 10%;
@@ -55,7 +57,7 @@ a:hover{
     width: 14rem;
 }
 .icon-facebook,.icon-instagram,.icon-twitter,.icon-youtube{
-    color:white;
+    color:$white;
     font-size: 0.8rem;
     text-decoration: none;
 }
@@ -69,7 +71,7 @@ a:hover{
 .pesao{
     width: 20rem;
     height: 20rem;
-    background-color: red;
+    background-color: $red;
 }
 #menu ul{
     display: flex;

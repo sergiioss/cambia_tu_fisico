@@ -1,3 +1,5 @@
+@import './styles/variables.scss';
+
 .back-to-top {
     display: flex;
     justify-content: center;
@@ -7,7 +9,7 @@
     right: 1rem;
     bottom: 2rem;
     height: 2rem;
-    background-color: white;
+    background-color: $blue-teal;
     border-radius: 50%;
     border:0;
 }
@@ -15,6 +17,6 @@
     display: none;
 }
 .icon-circle-up{
-    color: rgb(8, 47, 238);
+    color: $blue;
     font-size: 2rem;
 }
