@@ -1,7 +1,6 @@
 import './FitnessTraining.scss'
-import Container from 'react-bootstrap/Container'
-import Col from 'react-bootstrap/esm/Col'
-import Row from 'react-bootstrap/esm/Row'
+import {Col, Row, Container} from 'react-bootstrap'
+
 
 
 const FitnessTraining = () => {

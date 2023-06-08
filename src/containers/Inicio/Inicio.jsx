@@ -9,17 +9,17 @@ const Inicio = () => {
 
     return (
 
-        <Container className="inicio">
+        <Container className="inicio" >
             <Row className="second-section margin-bottom">
-                <Col className="first-image ">
+                <Col className="first-image" xs={12} sm={12} md={12} lg={4} xl={4} xxl={4}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/rutina-de-hipertrofia-696x453.jpg"></Image>
                     <a href="https://www.google.com/" className="subtitle" target="blank">Batidos de proteínas, que son y cuales debemos comprar</a>
                 </Col>
-                <Col className="second-image">
+                <Col className="second-image" xs={12} sm={12} md={12} lg={4} xl={4} xxl={4}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/rutina-gimnasio-anual3-696x392.jpg.webp"></Image>
                     <a href="https://www.google.com/" className="subtitle" target="blank">Batidos de proteínas, que son y cuales debemos comprar</a>
                 </Col>
-                <Col className="third-image">
+                <Col className="third-image" xs={12} sm={12} md={12} lg={4} xl={4} xxl={4}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/comprar-proteinas-696x464.jpg.webp"/>
                     <a href="https://www.google.com/" className="subtitle" target="blank">Batidos de proteínas, que son y cuales debemos comprar</a>
                 </Col>
@@ -33,44 +33,40 @@ const Inicio = () => {
                     Las rutinas de gimnasio no solo se pueden realizar en un centro de Fitness, también puedes realizarlas en tu casa, por eso tenemos además una completa selección de rutinas de pesas para hacer en casa.
                 </p>
             </Row>
-            <Row className="second-section">
-                <Col className="first-image">
+            <Row className="second-section margin-bottom">
+                <Col className="first-image" xs={12} sm={12} md={6} lg={4} xl={4} xxl={4}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/rutinas-volumen2-696x392.jpg"></Image>
                     <a href="https://www.google.com/" className="subtitle" target="blank">Batidos de proteínas, que son y cuales debemos comprar</a>
                 </Col>
-                <Col className="first-image">
+                <Col className="first-image" xs={12} sm={12} md={6} lg={4} xl={4} xxl={4}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/rutinas-definicion-muscular1-696x392.jpg"></Image>
                     <a href="https://www.google.com/" className="subtitle" target="blank">Batidos de proteínas, que son y cuales debemos comprar</a>
                 </Col>
-                <Col className="first-image">
+                <Col className="first-image" xs={12} sm={12} md={6} lg={4} xl={4} xxl={4}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/rutinas-fuerza1-696x392.jpg"/>
                     <a href="https://www.google.com/" className="subtitle" target="blank">Batidos de proteínas, que son y cuales debemos comprar</a>
                 </Col>
-            </Row>
-            <Row className="second-section">
-                <Col className="second-image">
+                <Col className="second-image" xs={12} sm={12} md={6} lg={4} xl={4} xxl={4}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/rutinas-full-body1-696x392.jpg"></Image>
                     <a href="https://www.google.com/" className="subtitle" target="blank">Batidos de proteínas, que son y cuales debemos comprar</a>
                 </Col>
-                <Col className="second-image">
+                <Col className="second-image" xs={12} sm={12} md={6} lg={4} xl={4} xxl={4}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/rutinas-principiantes-696x392.jpg"></Image>
                     <a href="https://www.google.com/" className="subtitle" target="blank">Batidos de proteínas, que son y cuales debemos comprar</a>
                 </Col>
-                <Col className="second-image">
+                <Col className="second-image" xs={12} sm={12} md={6} lg={4} xl={4} xxl={4}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/rutinas-caseras-696x392.jpg"/>
                     <a href="https://www.google.com/" className="subtitle" target="blank">Batidos de proteínas, que son y cuales debemos comprar</a>
                 </Col>
-            </Row>
-            <Row className="second-section margin-bottom">
-                <Col className="third-image">
+                <Col className="third-image" xs={12} sm={12} md={6} lg={4} xl={4} xxl={4}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/rutina-volumen-muscular1-696x392.jpg"></Image>
                     <a href="https://www.google.com/" className="subtitle" target="blank">Batidos de proteínas, que son y cuales debemos comprar</a>
                 </Col>
-                <Col className="third-image">
+                <Col className="third-image" xs={12} sm={12} md={6} lg={4} xl={4} xxl={4}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/rutina-tiron-empujon1-696x392.jpg"></Image>
                     <a href="https://www.google.com/" className="subtitle" target="blank">Batidos de proteínas, que son y cuales debemos comprar</a>
                 </Col>
-                <Col className="third-image">
+                <Col className="third-image" xs={12} sm={12} md={6} lg={4} xl={4} xxl={4}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/rutina-volumen7-696x392.jpg"/>
                     <a href="https://www.google.com/" className="subtitle" target="blank">Batidos de proteínas, que son y cuales debemos comprar</a>
                 </Col>
@@ -85,11 +81,11 @@ const Inicio = () => {
                 </p>
             </Row>
             <Row className="first-section">
-                <Col className="third-image">
+                <Col className="third-image" xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/rutina-volumen-muscular1-696x392.jpg"></Image>
                     <a href="https://www.google.com/" className="subtitle-big" target="blank">Ganar masa muscular, la guía definitiva para ganar músculo</a>
                 </Col>
-                <Col className="third-image">
+                <Col className="third-image" xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/rutina-tiron-empujon1-696x392.jpg"></Image>
                     <a href="https://www.google.com/" className="subtitle-big" target="blank">Definición muscular, como comer y entrenar para definir tus músculos</a>
                 </Col>
@@ -103,30 +99,28 @@ const Inicio = () => {
                     Excelentes <strong>rutinas de pesas</strong> para superar puntos de estancamiento, debilidades, asimetrías y músculos rezagados.
                 </p>
             </Row>
-            <Row className="second-section">
-                <Col className="first-image">
+            <Row className="second-section margin-bottom">
+                <Col className="first-image" xs={12} sm={12} md={6} lg={4} xl={4} xxl={4}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/rutinas-biceps-696x392.jpg"></Image>
                     <a href="https://www.google.com/" className="subtitle" target="blank">Batidos de proteínas, que son y cuales debemos comprar</a>
                 </Col>
-                <Col className="second-image">
+                <Col className="second-image" xs={12} sm={12} md={6} lg={4} xl={4} xxl={4}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/entrenamiento-triceps1-696x463.jpg"></Image>
                     <a href="https://www.google.com/" className="subtitle" target="blank">Batidos de proteínas, que son y cuales debemos comprar</a>
                 </Col>
-                <Col className="third-image">
+                <Col className="third-image" xs={12} sm={12} md={6} lg={4} xl={4} xxl={4}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/entrenamiento-piernas1-696x392.jpg"/>
                     <a href="https://www.google.com/" className="subtitle" target="blank">Batidos de proteínas, que son y cuales debemos comprar</a>
                 </Col>
-            </Row>
-            <Row className="second-section margin-bottom">
-                <Col className="first-image">
+                <Col className="first-image" xs={12} sm={12} md={6} lg={4} xl={4} xxl={4}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/entrenamiento-pecho-696x392.jpg"></Image>
                     <a href="https://www.google.com/" className="subtitle" target="blank">Batidos de proteínas, que son y cuales debemos comprar</a>
                 </Col>
-                <Col className="second-image">
+                <Col className="second-image" xs={12} sm={12} md={6} lg={4} xl={4} xxl={4}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/entrenamiento-espalda1-696x392.jpg"></Image>
                     <a href="https://www.google.com/" className="subtitle" target="blank">Batidos de proteínas, que son y cuales debemos comprar</a>
                 </Col>
-                <Col className="third-image">
+                <Col className="third-image" xs={12} sm={12} md={6} lg={4} xl={4} xxl={4}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/entrenamiento-hombros1-696x392.jpg"/>
                     <a href="https://www.google.com/" className="subtitle" target="blank">Batidos de proteínas, que son y cuales debemos comprar</a>
                 </Col>
@@ -141,11 +135,11 @@ const Inicio = () => {
                 </p>
             </Row>
             <Row className="first-section">
-                <Col className="third-image">
+                <Col className="third-image" xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/dietas-definicion-muscular-1-696x483.jpg"></Image>
                     <a href="https://www.google.com/" className="subtitle-big" target="blank">Ganar masa muscular, la guía definitiva para ganar músculo</a>
                 </Col>
-                <Col className="third-image">
+                <Col className="third-image" xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
                     <Image className="img-fluid" src="https://www.cambiatufisico.com/wp-content/uploads/dietas-ganar-masa-muscular-696x499.jpg"></Image>
                     <a href="https://www.google.com/" className="subtitle-big" target="blank">Definición muscular, como comer y entrenar para definir tus músculos</a>
                 </Col>

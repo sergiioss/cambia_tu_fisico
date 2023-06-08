@@ -2,25 +2,44 @@
 
 .footer{
     display: flex;
-    width: 100%;
-}
-.icon-github{
-    width: 50%;
-    padding: 1rem;
-    background-color: $black;
-    color: white;
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-}
-.links-privacy{
-    background-color: $black;
-    @include flex-center;
-    width: 50%;
-    gap: 1rem;
+    .block-footer{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .block-links{
+        .links-privacy{
+            background-color: $black;
+            @include flex-center;
+            gap: 1rem;
+            padding: 1rem;
+        }
+    }
+    .link-github{
+        color: $white;
+        font-size: 0.7rem;
+    }
+    .row > * {
+        padding: 0;
+    }
+    .a >* {
+        color:$white;
+    }
+    .icon-github{
+        width: 50%;
+        padding: 1rem;
+        background-color: $black;
+        color: white;
+        @include flex-center;
+        gap: 1rem;
+       
+    }
 }
 
-.link-github{
-    color: $white;
-    font-size: 0.7rem;
+@media (max-width: 576px) {
+    .footer{
+        .icon-github{
+            width: 100%;
+        }
+    }
 }

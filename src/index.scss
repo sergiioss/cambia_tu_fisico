@@ -72,19 +72,19 @@ ol, ul{
 #menu ul li a.nivel1, #menu ul li a.nivel2 {
 	display: block;
 	position: relative;
-   
 }
 
 #menu ul li, #menu ul .nivel1{
-    width: 100%;
     transition:2s;
     position: relative;
+    margin-right: 0.5rem;
 }
 #menu ul li::after{
     content: " ";
     display: block;
     transform:scale(0);
     opacity:0;
+    
 }
 #menu ul li:hover::after {
 	opacity:1;
@@ -95,6 +95,7 @@ ol, ul{
     transform:scale(1);
     transform-origin:bottom center;
     transition:transform 0.3s ease-in-out;
+    
 }
 
 #menu ul li a:hover, #menu ul li:hover a.nivel1{
@@ -111,6 +112,7 @@ ol, ul{
     padding-right: 2rem;
     width: auto;
     white-space:nowrap;
+    z-index: 9;
 }
 #menu ul li div:hover{
     display: block;
@@ -123,4 +125,5 @@ ol, ul{
 .desplegable{
     padding-bottom: 0.8rem;
     font-size: 0.9rem;
+    z-index: 9;
 }
