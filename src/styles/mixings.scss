@@ -1,0 +1,13 @@
+// mixins
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin font {
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: "";
+}

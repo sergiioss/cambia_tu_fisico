@@ -1,9 +1,7 @@
 @import './styles/variables.scss';
 
 .back-to-top {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
     position: fixed;
     width: 2rem;
     right: 1rem;

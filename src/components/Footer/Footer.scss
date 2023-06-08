@@ -15,9 +15,7 @@
 }
 .links-privacy{
     background-color: $black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
     width: 50%;
     gap: 1rem;
 }
