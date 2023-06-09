@@ -12,9 +12,12 @@
     background-color: $blue-teal;
     border-radius: 50%;
     border:0;
+    transition:bottom 1s ease-in-out;
 }
+
 .hiddin{
-    display: none;
+    position: fixed;
+    bottom: -3rem;
 }
 .icon-circle-up{
     color: $blue;

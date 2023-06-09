@@ -2,6 +2,7 @@ import './FitnessTraining.scss'
 import {Col, Row, Container} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Image from 'react-bootstrap/Image'
+import Aside from '../../../components/Aside/Aside'
 
 
 const FitnessTraining = () => {
@@ -10,7 +11,7 @@ const FitnessTraining = () => {
 
         <Container className="fitness-training">
             <Row className="first-section-fitness">
-                <Col className="body-fitness-training" xs={12} sm={12} md={9} lg={9} xl={9} xxl={9}>
+                <Col className="body-fitness-training" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
                     <h1>Musculación, la guía definitiva</h1>
                     <i>Con nuestros consejos y técnicas dominarás el arte de la musculación para cambiar tu cuerpo.</i>
                     <Row className="icons-fitness" xs={12} sm={12} md={9} lg={9} xl={9} xxl={9}>
@@ -53,9 +54,8 @@ const FitnessTraining = () => {
                         </p>
                     </section>
                 </Col>
-                <Col className="aside" xs={12} sm={12} md={3} lg={3} xl={3} xxl={3}>
-                    adios
-                </Col>
+                <Aside className="aside"/>
+                
             </Row>
         </Container>
     )
