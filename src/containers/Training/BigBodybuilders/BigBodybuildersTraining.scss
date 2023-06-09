@@ -1,0 +1,119 @@
+@import '../../../styles/variables.scss';
+
+.big-body-builders-exercises-training{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    .col{
+        flex:inherit;
+    }
+    .first-section-big-body-builders{
+        width: 75%;
+        i{
+            margin-left: 0;
+            margin-bottom: 1rem;
+        }
+        .row > * {
+            max-width: inherit;
+        }
+        .body-big-body-builders-training{ 
+            display: flex;
+            flex-direction: column;
+            .img-big-body-builders{
+                margin-bottom: 3rem;
+            }
+            .icons-big-body-builders{
+                display: flex;
+                width: 0;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                padding: 0;
+                margin: 0;
+                gap: 1rem;
+                margin-bottom: 1.5rem;
+                .icon-facebook{
+                    background-color: $blue;
+                    padding: 0.7rem 1.2rem;
+                    @include flex-center;
+                    border-radius: 10%;
+                    .icon-facebook::before{
+                        border: 1px solid $blue;
+                        background-color: $blue;
+                        font-size: 1.2rem;
+                    }
+                }
+                .icon-facebook:hover{
+                    color: $white;
+                    background-color:$blue-light;
+                }
+                .icon-instagram{
+                    background-color: $blue-teal;
+                    padding: 0.7rem 1.2rem;
+                    @include flex-center;
+                    border-radius: 10%;
+                    .icon-instagram::before{
+                        border: 1px solid $blue-teal;
+                        background-color: $blue-teal;
+                        font-size: 1.2rem;
+                    }
+                }
+                .icon-instagram:hover{
+                    color: $white;
+                    background-color: $blue-teal-light;
+                }
+                .icon-twitter{
+                    background-color: $green;
+                    padding: 0.7rem 1.2rem;
+                    @include flex-center;
+                    border-radius: 10%;
+                    .icon-twitter::before{
+                        border: 1px solid $green;
+                        background-color: $green;
+                        font-size: 1.2rem;
+                    }
+                }
+                .icon-twitter:hover{
+                    color: $white;
+                    background-color: $green-light;
+                }
+            }
+            .links-big-body-builders{
+                color:$blue-links;
+                font-weight: 700;
+            }
+            .links-big-body-builders:hover{
+                text-decoration: underline;
+            }
+            .square-big-body-builders{
+                padding: 0.5rem;
+                width: 100%;
+                background-color: $grey-light;
+                padding-left: 0;
+                margin:0;
+                margin-bottom: 1rem;
+                .title-square-big-body-builders{
+                    text-align: center;
+                    font-weight: 700;
+                }
+                ul li{
+                    list-style: none;
+                    padding-left: 1rem;
+                    color: $blue-links;
+                }
+
+            }
+        }
+        .aside{
+            background-color: $red;
+        }
+    }
+
+    h3,h5{
+        font-weight: 700;
+    }
+}

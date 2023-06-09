@@ -1,5 +1,5 @@
 import './Aside.scss';
-import {Col} from 'react-bootstrap';
+import {Container, Col, Row} from 'react-bootstrap';
 
 const Aside = () =>{
 
