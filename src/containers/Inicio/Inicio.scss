@@ -112,8 +112,17 @@ i{
 }
 @media (max-width: 520px) {
     .container{
+        display: flex;
+        flex-direction: row-reverse;
         .subtitle-big{
             font-size:0.8rem;
+        }
+        .navbar-light{
+            all:unset;
+            margin-left: 3rem;
+            .navbar-toggler{
+                margin-bottom: 0;
+            }
         }
     }
 }

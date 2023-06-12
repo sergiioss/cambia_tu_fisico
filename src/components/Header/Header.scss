@@ -96,3 +96,29 @@ a:hover{
     margin-bottom: 1rem;
 }
 
+@media (max-width: 576px) {
+    #menu{
+        width: 100%;
+    }
+    .navbar-collapse{
+        width: 100%;
+        padding-left: 3rem;
+    }
+    #menu ul{
+        display: block;
+    }
+    .header-links{
+        display: none;
+    }
+    .header{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-left: 1rem;
+        .header-img{
+            .header-img-logo{
+                width: 100px;
+            }
+        }
+    }
+    
+}
