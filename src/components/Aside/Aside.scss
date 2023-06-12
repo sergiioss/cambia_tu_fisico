@@ -1,5 +1,37 @@
 @import '../../styles/variables.scss';
 
-.aside{
-    background-color: $red;
+.block-aside{
+    position:relative;
+   .titles-section{
+    position: sticky;
+    top: 20px;
+    width: 100%;
+    padding-left: 2rem;
+    margin:0;
+    .block-img-section{
+        width: 100%;
+        padding: 0;
+        .title-section-words{
+            margin-bottom: 1rem;
+            text-align: start;
+            padding-left: 0;
+        }
+        .block-img-title{
+            display: flex;
+            padding-right: 0;
+            padding-bottom: 1rem;
+            .img-aside{
+                padding: 0;
+                width: 100px;
+            }
+            .title-aside{
+                padding-left: 1rem;
+                text-align: justify;
+            }
+        }
+    }
+    h3{
+        font-size: 0.9rem;
+    }
+   }
 }
