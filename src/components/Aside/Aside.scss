@@ -35,3 +35,25 @@
     }
    }
 }
+
+@media (max-width: 420px) {
+    .block-aside{
+        position:relative;
+        .row >*{
+            margin-right: inherit;
+            margin-left: inherit;
+        }
+       .titles-section{
+        padding-left: 0rem;
+            .block-img-section{
+                .block-img-title{
+                    .title-aside{
+                        a{
+                            font-size: 0.7rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
