@@ -19,7 +19,7 @@ const StretchingTraining = () => {
                         <Link className="icon-instagram" to="https://www.instagram.com/cambiatufisico_/"></Link>
                         <Link className="icon-twitter" to="https://twitter.com/cambiatufisico"></Link>
                     </Row>
-                    <Image className="img-stretching" src="https://www.cambiatufisico.com/wp-content/uploads/musculacion5-696x392.jpg"></Image>
+                    <Image className="img-stretching" src="https://www.cambiatufisico.com/wp-content/uploads/estiramientos-flexibilidad-696x392.jpg.webp"></Image>
                     <section>
                         <p>
                             La <strong>musculación</strong> es una disciplina que requiere tiempo, dedicación y esfuerzo. Como su propio nombre indica, su objetivo es el <strong>desarrollo de los músculos.</strong>

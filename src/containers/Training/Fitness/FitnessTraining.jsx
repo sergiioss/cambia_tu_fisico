@@ -54,8 +54,7 @@ const FitnessTraining = () => {
                         </p>
                     </section>
                 </Col>
-                <Aside className="aside"/>
-                
+                <Aside className="aside"/>  
             </Row>
         </Container>
     )
