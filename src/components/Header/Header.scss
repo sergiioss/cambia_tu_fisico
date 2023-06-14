@@ -98,6 +98,7 @@ a:hover{
 
 @media (max-width: 576px) {
     #menu{
+        display: none;
         width: 100%;
     }
     .navbar-collapse{
@@ -113,12 +114,27 @@ a:hover{
     .header{
         display: flex;
         flex-direction: row-reverse;
-        margin-left: 1rem;
-        .header-img{
-            .header-img-logo{
-                width: 100px;
-            }
-        }
+        flex-wrap: nowrap;
+    }
+    .header-img-logo{
+        width: 100px;
+    }
+    .navbar-toggler{
+        margin:0;
+    }
+    .navbar-collapse{
+        background-color: $blue;
+        color: $white;
+    }
+    .container-navbar::before{
+        display: none;
+    }
+    .icon-search{
+        display: none;
+    }
+    .modal-header{
+        background-color: $blue;
+        color: $white;
     }
     
 }

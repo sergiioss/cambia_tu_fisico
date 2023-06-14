@@ -94,26 +94,36 @@ i{
         .first-section{
             width: 100%;
             margin-bottom: 1rem;
+            .third-image{
+                border:0px;
+                margin-bottom: 0.2rem;
+            }
         }
         .second-section{
             width: 100%;
+            .first-image,.second-image,.third-image{
+                border:0px;
+                margin-bottom: 0.2rem;
+            }
         }
         .titles-section{
             width: 100%;
             margin-bottom: 0rem;
         }
         .title-section-words{
-            margin-bottom: 1rem;
+            margin-bottom: 0.5rem;
+            text-align: start;
         }
         p{
             font-size: 0.7rem;
+            padding-left: 0.7rem;
         }
     }
 }
 @media (max-width: 520px) {
-    .container{
+
+    .inicio{
         display: flex;
-        flex-direction: row-reverse;
         .subtitle-big{
             font-size:0.8rem;
         }
