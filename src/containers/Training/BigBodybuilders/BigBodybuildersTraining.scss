@@ -117,3 +117,20 @@
         font-weight: 700;
     }
 }
+
+@media (max-width: 420px) {
+    .big-body-builders-exercises-training{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0.5rem;
+        padding-right:0.5rem;
+        .first-section-big-body-builders{
+            width: 100%;
+        }
+        p{
+            padding-left: 0rem;
+        }
+    }
+
+}

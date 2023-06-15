@@ -114,3 +114,20 @@
         font-weight: 700;
     }
 }
+
+@media (max-width: 420px) {
+    .fitness-training{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0.5rem;
+        padding-right:0.5rem;
+        .first-section-fitness{
+            width: 100%;
+        }
+        p{
+            padding-left: 0rem;
+        }
+    }
+
+}
