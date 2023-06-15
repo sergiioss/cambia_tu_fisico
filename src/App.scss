@@ -23,3 +23,17 @@
     color: $blue;
     font-size: 2rem;
 }
+
+@media (max-width: 420px) {
+    .back-to-top {
+        bottom: 2.7rem;
+    }
+    .hiddin{
+        position: fixed;
+        bottom: -3rem;
+    }
+    .icon-circle-up{
+        color: $blue;
+        font-size: 2rem;
+    }
+}

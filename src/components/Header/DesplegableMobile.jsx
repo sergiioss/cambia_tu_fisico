@@ -10,7 +10,7 @@ const DesplegableMobile = (props) =>{
             <Accordion.Item eventKey="0">
             <Accordion.Header className="accordion-header-first">Entrenamiento</Accordion.Header>
             <Accordion.Body>
-                <ListGroup.Item>
+                <ListGroup.Item >
                     <Link onClick={props.onClick} to="/musculacion">Musculación</Link>
                     <Link onClick={props.onClick} to="/entrenamiento-alta-intensidad">Hit</Link>
                     <Link onClick={props.onClick} to="/principiantes">Principiantes</Link>
@@ -119,7 +119,7 @@ const DesplegableMobile = (props) =>{
             <Accordion.Header className="accordion-header-first">Objetivos</Accordion.Header>
             <Accordion.Body>
                 <ListGroup.Item>
-                    <div onClick={props.onClick} to="/objetivo-quemar-grasa" className="icon icon-redo2">Quemar Grasa</div>
+                    <Link onClick={props.onClick} to="/objetivo-quemar-grasa">Quemar Grasa</Link>
                     <Link onClick={props.onClick} to="/objetivo-ganar-masa-muscular">Ganar Masa Muscular</Link>
                     <Link onClick={props.onClick} to="/objetivo-ganar-peso">Ganar Peso</Link>
                     <Link onClick={props.onClick} to="/objetivo-perder-peso">Perder Peso</Link>

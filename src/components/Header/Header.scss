@@ -138,11 +138,11 @@ a:hover{
         .accordion-menu{
             --bs-accordion-bg:none;
             --bs-accordion-border-color: none;
-            font-size: 0.65rem;
+            font-size: 1rem;
         }
         .accordion-header{
             color: $white;
-            font-size: 1rem;
+            font-size: 1.5rem;
             margin-top: 0.5rem;
             margin-bottom: 0.5rem;
         }
@@ -151,6 +151,13 @@ a:hover{
         }
         .accordion-button{
             all:unset;
+            display: flex;
+            align-items: flex-end;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            align-content: space-around;
+            justify-content: space-around;
+            width: 100%;
         }
         .list-group-item{
             display: flex;
@@ -159,6 +166,7 @@ a:hover{
         .list-group-item a{
             color: $white;
             margin-left: 1rem;
+            margin-bottom: 1rem;
         }
         .block-header-accordion{
             margin-bottom: 2rem;
@@ -166,16 +174,19 @@ a:hover{
         .accordion-item{
             width: 90%;
         }
-        .accordion-header-first{
+        .icon-circle-down::before{
             display: flex;
-            justify-content: space-between;
+            align-items: right;
+            width: 100%;
         }
-        .accordion-header-first::after{
-            content: "\e968";
+        .accordion-button::after {
+            background-image: var(--bs-accordion-btn-active-icon);
+            rotate: -90deg;
         }
-        .icon-redo2:before {
-            content: "\e968";
+        .accordion{
+            --bs-accordion-btn-icon-transform:rotate(90deg)
         }
+        
     }
     .btn-close-white{
         opacity: 1;

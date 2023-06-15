@@ -41,5 +41,21 @@
         .icon-github{
             width: 100%;
         }
+        .link-github{
+            color: $white;
+            font-size: 0.6rem;
+        }
+        .block-links{
+            .links-privacy{
+                background-color: $black;
+                @include flex-center;
+                gap: 1rem;
+                padding: 1rem;
+                padding-top:0;
+            }
+        }
+        .icon-github{
+            padding: 0.5rem;
+        }
     }
 }

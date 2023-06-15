@@ -1,11 +1,10 @@
-import './MuscleDefinitionDiet.css'
+import './MuscleDefinitionDiet.scss'
 import Accordion from 'react-bootstrap/Accordion';
 
 
 const MuscleDefinitionDiet = () => {
 
     return (
-
         <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0">
                 <Accordion.Header>Accordion Item #1</Accordion.Header>
