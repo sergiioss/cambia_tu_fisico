@@ -12,15 +12,32 @@ const BigBodybuildersTraining = () => {
         <Container className="big-body-builders-exercises-training">
             <Row className="first-section-big-body-builders">
                 <Col className="body-big-body-builders-training" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
-                    <h1>Musculación, la guía definitiva</h1>
-                    <i>Con nuestros consejos y técnicas dominarás el arte de la musculación para cambiar tu cuerpo.</i>
+                    <h1>GRANDES CULTURISTAS</h1>
+                    <i>
+                        <p>
+                            En esta sección encontrarás <strong>entrenamientos y consejos nutricionales</strong> de grandes culturistas de la historia como <strong>Arnold</strong>, Dorian y otros grandes campeones.
+                        </p>
+                        <p>
+                            Recuerda que la forma en que entrenan los culturistas profesionales no es la más adecuada para muchas personas ya que suelen utilizar volúmenes de entrenamiento muy altos.
+                        </p>
+                        <p>
+                            Esto es debido a que su vida está dedicada al 100% al culturismo. Descansan mucho, comen mucho y utilizan sustancias químicas. En cualquier caso, podemos aprender muchas cosas de estos <strong>«monstruos»</strong> del culturismo. Keep Watching!
+                        </p>
+                    </i>
                     <Row className="icons-big-body-builders" xs={12} sm={12} md={9} lg={9} xl={9} xxl={9}>
                         <Link className="icon-facebook" to="https://www.facebook.com/CambiatufisicoWeb/"></Link>
                         <Link className="icon-instagram" to="https://www.instagram.com/cambiatufisico_/"></Link>
                         <Link className="icon-twitter" to="https://twitter.com/cambiatufisico"></Link>
                     </Row>
-                    <Image className="img-big-body-builders" src="https://www.cambiatufisico.com/wp-content/uploads/hombros-arnold-696x385.jpg"></Image>
+                    <Row>
+                        <Image className="img-big-body-builders" src="https://www.cambiatufisico.com/wp-content/uploads/hombros-arnold-696x385.jpg"></Image>
+                        <Image className="img-big-body-builders" src="https://www.cambiatufisico.com/wp-content/uploads/2015/10/Olympia_Collage_0-696x450.jpg"></Image>
+                    </Row>
                     <section>
+                    <Row>
+                        <Image className="img-big-body-builders" src="https://www.cambiatufisico.com/wp-content/uploads/hombros-arnold-696x385.jpg"></Image>
+                        
+                    </Row>
                         <p>
                             La <strong>musculación</strong> es una disciplina que requiere tiempo, dedicación y esfuerzo. Como su propio nombre indica, su objetivo es el <strong>desarrollo de los músculos.</strong>
                         </p>
