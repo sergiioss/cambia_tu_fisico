@@ -1,0 +1,24 @@
+@import '../../../styles/variables.scss';
+
+table{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+table, th, td {
+    border: 1px solid $grey-light;
+}
+table thead tr td{
+    background-color: $blue;
+    color: $white;
+    padding: 0.2rem;
+    font-weight: 700;
+}
+table tbody tr td{
+    padding: 0.2rem;
+}
+tbody tr:nth-child(even){
+    background-color: $grey;
+}
+.noneBorder{
+    border:0px;
+}
