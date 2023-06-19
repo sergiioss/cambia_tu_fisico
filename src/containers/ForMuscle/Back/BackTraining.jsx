@@ -9,31 +9,31 @@ const BackTraining = () => {
 
     return (
 
-        <Container className="fitness-training">
-            <Row className="first-section-fitness">
-                <Col className="body-fitness-training" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
+        <Container className="back-training">
+            <Row className="first-section-back">
+                <Col className="body-back-training" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
                     <h1>Rutinas y entrenamiento de la espalda</h1>
                     <br />
-                    <Row className="icons-fitness" xs={12} sm={12} md={9} lg={9} xl={9} xxl={9}>
+                    <Row className="icons-back" xs={12} sm={12} md={9} lg={9} xl={9} xxl={9}>
                         <Link className="icon-facebook" to="https://www.facebook.com/CambiatufisicoWeb/"></Link>
                         <Link className="icon-instagram" to="https://www.instagram.com/cambiatufisico_/"></Link>
                         <Link className="icon-twitter" to="https://twitter.com/cambiatufisico"></Link>
                     </Row>
-                    <Image className="img-fitness" src="https://www.cambiatufisico.com/wp-content/uploads/entrenamiento-espalda1-696x392.jpg"></Image>
+                    <Image className="img-back" src="https://www.cambiatufisico.com/wp-content/uploads/entrenamiento-espalda1-696x392.jpg"></Image>
                     <section>
                         <p>
                             Las rutinas de espalda son los entrenamientos más extenuantes con permiso del día de piernas. La espalda es un grupo muscular grande y requiere de un gran esfuerzo para una total movilización y trabajo de sus músculos
                         </p>
                         <p>
-                            Tener una espalda amplia y musculada otorgará a tu físico esa proporción de «línea V» tan buscada por los culturistas y las personas aficionadas al fitness. El culturismo se basa en las proporciones, y una espalda estrecha hará que el resto de tu físico no parezca a la altura.
+                            Tener una espalda amplia y musculada otorgará a tu físico esa proporción de «línea V» tan buscada por los culturistas y las personas aficionadas al back. El culturismo se basa en las proporciones, y una espalda estrecha hará que el resto de tu físico no parezca a la altura.
                         </p>
                         <p>
                             Para que las rutinas de espalda sean efectivas necesitas una buena planificación y variación en las mismas, con los mejores ejercicios de espalda disponibles en tu arsenal. Si buscas rutinas de espalda efectivas estás en el sitio indicado.
                         </p>
-                        <Row className="square-fitness">
-                            <p className="title-square-fitness">Contenidos</p>
+                        <Row className="square-back">
+                            <p className="title-square-back">Contenidos</p>
                             <ul>
-                                <li className="li-square-fitness">1 Como optimizar tus rutinas de espalda</li>
+                                <li className="li-square-back">1 Como optimizar tus rutinas de espalda</li>
                                 <li>2 Rutina de espalda para volumen general</li>
                                 <li>3 Rutina de espalda para principiantes</li>
                                 <li>4 Rutina Casera (solo mancuernas)</li>
