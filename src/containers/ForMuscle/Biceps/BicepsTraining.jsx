@@ -1,5 +1,5 @@
 import './BicepsTraining.scss'
-import {Col, Row, Container} from 'react-bootstrap'
+import { Col, Row, Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Image from 'react-bootstrap/Image'
 import Aside from '../../../components/Aside/Aside'
@@ -53,7 +53,7 @@ const BicepsTraining = () => {
                             Existe tan sólo un tipo principal de ejercicio para el <strong>bíceps</strong>: el curl, en el que el codo queda fijo contra la resistencia.
                         </p>
                         <p>
-                        Sin embargo, hay muchas variaciones del <strong>curl de bíceps</strong> que modifican la posición de los brazos en relación con el resto del cuerpo, a fin de entrenar el músculo desde diferentes ángulos.
+                            Sin embargo, hay muchas variaciones del <strong>curl de bíceps</strong> que modifican la posición de los brazos en relación con el resto del cuerpo, a fin de entrenar el músculo desde diferentes ángulos.
                         </p>
                         <h5>Primero los ejercicios básicos</h5>
                         <p>
@@ -82,13 +82,182 @@ const BicepsTraining = () => {
                         </p>
                         <Row className="box-biceps-parrafo">
                             <p className="biceps-training-square">
-                            Revisa nuestra <strong>sección de</strong> <strong className="title-red-biceps-square">ejercicios de bíceps</strong> para introducir variaciones en las rutinas aquí expuestas.
-                            <br />
+                                Revisa nuestra <strong>sección de</strong> <strong className="title-red-biceps-square">ejercicios de bíceps</strong> para introducir variaciones en las rutinas aquí expuestas.
+                                <br />
                             </p>
                         </Row>
+                        <p>
+                            Los entrenamientos explicados a continuación <strong>no incluyen las series de calentamiento.</strong> A menos que se diga lo contrario <strong>descansar de 60 a 90 segundos entre series</strong>.
+                        </p>
+                        <h3>Rutina de bíceps para tamaño muscular</h3>
+                        <p>
+                            Ejercicios básicos, pesos elevados y volumen de entrenamiento alto, las claves del volumen. Si eres avanzado y conoces los secretos de entrenar a máxima intensidad puedes quitar una serie de cada ejercicio.
+                        </p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Ejercicio</td>
+                                    <td>Series</td>
+                                    <td>Reps</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Curl de pie con barra recta</td>
+                                    <td>4</td>
+                                    <td>6,8,10,12</td>
+                                </tr>
+                                <tr>
+                                    <td>Curl con barra Z en banco Scott</td>
+                                    <td>4</td>
+                                    <td>6,8,10,12</td>
+                                </tr>
+                                <tr>
+                                    <td>Curl con mancuernas, banco inclinado</td>
+                                    <td>3</td>
+                                    <td>8,8,10</td>
+                                </tr>
+                                <tr>
+                                    <td>Curl en polea alta</td>
+                                    <td>3</td>
+                                    <td>8,10,12</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h3>Rutina de bíceps para principiantes</h3>
+                        <p>
+                            Ejercicios de fácil ejecución y que proporcionan resultados rápidos, lo mejor para el principiante.
+                        </p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Ejercicio</td>
+                                    <td>Series</td>
+                                    <td>Reps</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Curl de pie con barra Z</td>
+                                    <td>3</td>
+                                    <td>10,12,12</td>
+                                </tr>
+                                <tr>
+                                    <td>Curl con mancuernas de pie</td>
+                                    <td>3</td>
+                                    <td>10,10,10</td>
+                                </tr>
+                                <tr>
+                                    <td>Curl en máquina de bíceps</td>
+                                    <td>3</td>
+                                    <td>10,10,10</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h3>Rutina de bíceps en casa</h3>
+                        <p>
+                            Una barra y dos mancuernas es todo lo que necesitas para machacar tus bíceps en tu propia casa.
+                        </p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Ejercicio</td>
+                                    <td>Series</td>
+                                    <td>Reps</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Curl con mancuernas de pie</td>
+                                    <td>4</td>
+                                    <td>10,12,12,20</td>
+                                </tr>
+                                <tr>
+                                    <td>Curl «21»*</td>
+                                    <td>4</td>
+                                    <td>21</td>
+                                </tr>
+                                <tr>
+                                    <td>Curl concentrado</td>
+                                    <td>4</td>
+                                    <td>12,12,15,20</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <i>*Haced siete repeticiones en cada serie solo de la parte inferior del recorrido, seguidas por siete repeticiones del recorrido de la parte superior, terminando con siete repeticiones completas</i>
+                        <br />
+                        <br />
+                        <h3>Rutina de bíceps de 15 minutos</h3>
+                        <p>
+                            ¿Tienes poco tiempo? Reduce al máximo el tiempo de recuperación y vete a casa rápido y con una gran congestión.
+                        </p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Ejercicio</td>
+                                    <td>Series</td>
+                                    <td>Reps</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Curl en polea baja</td>
+                                    <td>3</td>
+                                    <td>6,10,15</td>
+                                </tr>
+                                <tr>
+                                    <td>Curl en polea alta</td>
+                                    <td>3</td>
+                                    <td>6,10,15</td>
+                                </tr>
+                                <tr>
+                                    <td>Curl concentrado</td>
+                                    <td>3</td>
+                                    <td>6,10,15</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                            <i>*No descansar más de 30 segundos entre series.</i>
+                            <br />
+                            <br />
+                            <h3>Rutina para prioridad en cabeza externa del bíceps (Pico)</h3>
+                        <p>
+                            Sabemos que el denominado «pico» es más genética que otra cosa. Pero si lo tienes en los genes con esta rutina puedes optimizar los resultados.
+                        </p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Ejercicio</td>
+                                    <td>Series</td>
+                                    <td>Reps</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Curl con barra de pie agarre cerrado</td>
+                                    <td>4</td>
+                                    <td>10,10,12,12</td>
+                                </tr>
+                                <tr>
+                                    <td>Curl con mancuernas, banco inclinado</td>
+                                    <td>4</td>
+                                    <td>8,8,10,10</td>
+                                </tr>
+                                <tr>
+                                    <td>Curl martillo, alterno</td>
+                                    <td>4</td>
+                                    <td>10,12,15,15</td>
+                                </tr>
+                                <tr>
+                                    <td>Curl en polea baja</td>
+                                    <td>3</td>
+                                    <td>10,10,12</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </section>
                 </Col>
-                <Aside className="aside"/>  
+                <Aside className="aside" />
             </Row>
         </Container>
     )

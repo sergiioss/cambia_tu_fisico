@@ -13,7 +13,7 @@
     padding-left:0
 }
 p{
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 i{
     margin-left: 1rem;
@@ -37,7 +37,13 @@ i{
     overflow: hidden;
     transition:all 500ms ease;
 }
-
+.third-image{
+    display: flex;
+    flex-direction: column;
+}
+.img-fluid{
+    height: 100%;
+}
 .img-fluid:hover{
     transition:0.4s;
     transform:scale(1.2);
