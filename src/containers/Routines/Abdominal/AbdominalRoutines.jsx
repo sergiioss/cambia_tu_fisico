@@ -9,48 +9,84 @@ const AbdominalRoutines = () => {
 
     return (
 
-        <Container className="fitness-training">
-            <Row className="first-section-fitness">
-                <Col className="body-fitness-training" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
-                    <h1>Musculación, la guía definitiva</h1>
-                    <i>Con nuestros consejos y técnicas dominarás el arte de la musculación para cambiar tu cuerpo.</i>
-                    <Row className="icons-fitness" xs={12} sm={12} md={9} lg={9} xl={9} xxl={9}>
+        <Container className="abdominal-routine-training">
+            <Row className="first-section-abdominal-routine">
+                <Col className="body-abdominal-routine-training" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
+                    <h1>Rutinas de abdominales con ejercicios muy efectivos</h1>
+                    <br />
+                    <Row className="icons-abdominal-routine" xs={12} sm={12} md={9} lg={9} xl={9} xxl={9}>
                         <Link className="icon-facebook" to="https://www.facebook.com/CambiatufisicoWeb/"></Link>
                         <Link className="icon-instagram" to="https://www.instagram.com/cambiatufisico_/"></Link>
                         <Link className="icon-twitter" to="https://twitter.com/cambiatufisico"></Link>
                     </Row>
-                    <Image className="img-fitness" src="https://www.cambiatufisico.com/wp-content/uploads/musculacion5-696x392.jpg"></Image>
+                    <Image className="img-abdominal-routine" src="https://www.cambiatufisico.com/wp-content/uploads/rutinas-abdominales-696x392.jpg"></Image>
                     <section>
                         <p>
-                            La <strong>musculación</strong> es una disciplina que requiere tiempo, dedicación y esfuerzo. Como su propio nombre indica, su objetivo es el <strong>desarrollo de los músculos.</strong>
+                            Llevar a cabo <strong>rutinas de abdominales</strong> bien planificadas y de forma constante es un requisito indispensable para conseguir una abdomen plano, marcado y fuerte.
                         </p>
                         <p>
-                            En la actualidad, la práctica de la <strong>musculación</strong> es uno de los recursos más utilizados por todo tipo de personas ya sea para mejorar su físico, <a className="links-fitness" href="">ganar masa muscular</a>, <a className="links-fitness">perder peso</a> o simplemente como complemento para todo tipo de deportes.
+                        Para ello es necesario realizar una gran variedad de <strong>ejercicios de abdominales</strong> que ataquen los músculos del abdomen desde todos los ángulos (inferior, superior y lateral).
                         </p>
                         <p>
-                            Te adelantamos que el éxito del proceso de musculación depende de tres pilares básicos: La dieta, el entrenamiento con rutinas de gimnasio adecuadas y el descanso. Si cuidas estos tres pilares tu éxito a la hora de alcanzar tus objetivos está asegurado.
+                            No olvides introducir tu <strong>plan abdominal</strong> en tu <strong>rutina de entrenamiento</strong>. Un abdomen fuerte te permitirá tener un cuerpo más fuerte, equilibrado y menos propenso a las <strong>lesiones</strong>.
                         </p>
-                        <Row className="square-fitness">
-                            <p className="title-square-fitness">Contenidos</p>
+                        <Row className="square-abdominal-routine">
+                            <p className="title-square-abdominal-routine">Contenidos</p>
                             <ul>
-                                <li className="li-square-fitness">1 Los tres principios de la musculación</li>
-                                <li>2 Musculación por grupos musculares</li>
-                                <li>3 Selección de artículos de musculación</li>
+                                <li className="li-square-abdominal-routine">1 Como realizar las rutinas de abdominales</li>
+                                <li>2 Las tres claves de las rutinas de abdominales</li>
+                                <li>3 Rutina de abdomen para principiantes</li>
+                                <li>4 Rutina de abdominales nivel intermedio</li>
+                                <li>5 Rutina de abdomen avanzada</li>
+                                <li>6 Rutina de abdominales de alta intensidad</li>
+                                <li>7 Selección de rutinas de abdominales</li>
                             </ul>
                         </Row>
-                        <h3>Los tres principios de la musculación</h3>
+                        <h3>Como realizar las rutinas de abdominales</h3>
                         <p>
-                            En el entrenamiento de la fuerza y la masa muscular hay tres principios de entrenamiento especialmente importantes y que toda persona que inicia en las pesas debe conocer.
+                            Los músculos <strong>abdominales</strong> no son físicamente distintos del resto. Dicho esto, déjame plantear la siguiente pregunta: si trabajas los pectorales, ¿harías tres series de 100 repeticiones de press de banca?
+                        </p>
+                        <Row className="double-img-block">
+                            <Image className="double-img-big" src="https://www.cambiatufisico.com/wp-content/uploads/rutina-abdominal.jpg"></Image>
+                            <i>Un cuerpo no está completo si no tiene un buen abdomen. Realiza nuestras rutinas de abdominales y lo conseguirás.</i>
+                        </Row>
+                        <p>
+                            Por supuesto que no. El <strong>entrenamiento de abdominales</strong> debe enfocarse de la misma forma, aunque mucha gente crea que tiene que hacer cientos de repeticiones.
                         </p>
                         <p>
-                            Estos tres principios se basan en el orden correcto al realizar los ejercicios, progresión de entrenamiento y recuperación adecuada.
-                        </p>
-                        <h5>Orden de los ejercicios</h5>
-                        <p>
-                            Según este principio, los músculos grandes deben ser ejercitados antes que los pequeños. La razón es muy simple: un músculo pequeño se fatiga antes y con mayor facilidad que uno grande.
+                            Parte de los motivos de esta errónea creencia es que tal vez no se trabajen los abdominales correctamente o con la suficiente intensidad.
                         </p>
                         <p>
-                            Por consiguiente, si los músculos pequeños son ejercitados al principio de la sesión, pueden provocar una fatiga prematura general, impidiendo luego el óptimo rendimiento de los grupos musculares grandes.
+                            Si tienes que completar 50 repeticiones antes de sentir la quemazón en los músculos, es porque estás haciendo algo mal. Probablemente tengas que aminorar la marcha y mejorar la <strong>ejecución</strong> del ejercicio.
+                        </p>
+                        <p>
+                            Sé sincero: <i>¿desplazas la cabeza hacia delante en las elevaciones de tronco? ¿Contraes los músculos al máximo en cada repetición? ¿Te das impulso con el cuerpo para hacer el ejercicio correctamente?</i>
+                        </p>
+                        <p>
+                            Si trabajas los abdominales de la forma adecuada, sentirás la <strong>quemazón</strong> de forma inmediata, y no tendrás la suficiente energía para completar cientos de repeticiones.
+                        </p>
+                        <p>
+                            Así que, si te resulta demasiado fácil, comprueba que haces los ejercicios adecuadamente.
+                        </p>
+                        <h3>Las tres claves de las rutinas de abdominales</h3>
+                        <Row className="double-img-block">
+                            <Image className="double-img-big" src="https://www.cambiatufisico.com/wp-content/uploads/rutinas-de-abdominales.jpg"></Image>
+                            <i>Una buena rutina abdominal nos puede proporcionar una zona media funcional, estética y fuerte.</i>
+                        </Row>
+                        <p>
+                            Si quieres tener unos músculos del abdomen bien definidos y marcados, son necesarios 3 pasos:
+                        </p>
+                        <p>
+                            <strong>1)</strong> Realizar las <strong>rutinas de abdominales</strong> que aquí te mostramos y fijarte bien en la forma correcta de ejecutar los ejercicios que componen cada rutina.
+                        </p>
+                        <p>
+                            <strong>2)</strong> Disminuye la grasa que se acumula en el abdomen: para esto tienes que realizar ejercicios para adelgazar como caminar, trotar, aeróbicos, nadar, bailar, etc.
+                        </p>
+                        <p>
+                            <strong>3)</strong> Lleva una dieta baja en grasas.
+                        </p>
+                        <p>
+                            Antes de realizar estas <strong>rutinas de ejercicios abdominales</strong> te recomendamos que leas con atención la sección de <strong>Entrenamiento Abdominal</strong>.
                         </p>
                     </section>
                 </Col>
