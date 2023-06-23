@@ -69,7 +69,7 @@ const FullBodyRoutines = () => {
                             Todo el mundo tiene que empezar en alguna parte. Si nunca has <strong>entrenado con pesas</strong>, necesitas una rutina para preparar tus <strong>músculos</strong> para entrenamientos más intensos.
                         </p>
                         <Row className="img-fullBody-routine">
-                            <Image src="https://www.cambiatufisico.com/wp-content/uploads/rutinas-full-body2.jpg"></Image>
+                            <Image src="https://www.cambiatufisico.com/wp-content/uploads/rutinas-full-body-1.jpg"></Image>
                             <i>
                                 En las rutinas full body es especialmente importante realizar ejercicios multiarticulares pero siempre con una ejecución perfecta.
                             </i>

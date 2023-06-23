@@ -9,48 +9,58 @@ const VolumeRoutines = () => {
 
     return (
 
-        <Container className="fitness-training">
-            <Row className="first-section-fitness">
-                <Col className="body-fitness-training" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
-                    <h1>Musculación, la guía definitiva</h1>
-                    <i>Con nuestros consejos y técnicas dominarás el arte de la musculación para cambiar tu cuerpo.</i>
-                    <Row className="icons-fitness" xs={12} sm={12} md={9} lg={9} xl={9} xxl={9}>
+        <Container className="volume-routine-training">
+            <Row className="first-section-volume-routine">
+                <Col className="body-volume-routine-training" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
+                    <h1>Rutinas de volumen para ganar masa muscular</h1>
+                    <i>¡Las mejores rutinas de volumen muscular están aquí! ¡A entrenar!</i>
+                    <Row className="icons-volume-routine" xs={12} sm={12} md={9} lg={9} xl={9} xxl={9}>
                         <Link className="icon-facebook" to="https://www.facebook.com/CambiatufisicoWeb/"></Link>
                         <Link className="icon-instagram" to="https://www.instagram.com/cambiatufisico_/"></Link>
                         <Link className="icon-twitter" to="https://twitter.com/cambiatufisico"></Link>
                     </Row>
-                    <Image className="img-fitness" src="https://www.cambiatufisico.com/wp-content/uploads/musculacion5-696x392.jpg"></Image>
+                    <Image className="img-volume-routine" src="https://www.cambiatufisico.com/wp-content/uploads/rutinas-volumen2-696x392.jpg"></Image>
                     <section>
                         <p>
-                            La <strong>musculación</strong> es una disciplina que requiere tiempo, dedicación y esfuerzo. Como su propio nombre indica, su objetivo es el <strong>desarrollo de los músculos.</strong>
+                            Aunque el objetivo principal de las rutinas de volumen es potenciar la <strong>hipertrofia muscular</strong>, con ellas se gana <strong>tamaño, fuerza</strong> y, dependiendo de la dieta, puedes incluso <strong>definir los músculos</strong>.
                         </p>
                         <p>
-                            En la actualidad, la práctica de la <strong>musculación</strong> es uno de los recursos más utilizados por todo tipo de personas ya sea para mejorar su físico, <a className="links-fitness" href="">ganar masa muscular</a>, <a className="links-fitness">perder peso</a> o simplemente como complemento para todo tipo de deportes.
+                            Muchos investigadores y <strong>culturistas</strong> están de acuerdo en que, para lograr el éxito, debéis conseguir el equilibrio entre los pesos, el cardio y la nutrición. Esta afirmación indica que la alimentación es una pieza ineludible de las sesiones de entrenamiento.
                         </p>
                         <p>
-                            Te adelantamos que el éxito del proceso de musculación depende de tres pilares básicos: La dieta, el entrenamiento con rutinas de gimnasio adecuadas y el descanso. Si cuidas estos tres pilares tu éxito a la hora de alcanzar tus objetivos está asegurado.
+                            Ciertamente, los culturistas son lo que comen. Por lo tanto, ninguna rutina de volumen tendrá éxito sin ir acompañada de una adecuada <strong>dieta para ganar masa muscular.</strong>
                         </p>
-                        <Row className="square-fitness">
-                            <p className="title-square-fitness">Contenidos</p>
+                        <Row className="square-volume-routine">
+                            <p className="title-square-volume-routine">Contenidos</p>
                             <ul>
-                                <li className="li-square-fitness">1 Los tres principios de la musculación</li>
-                                <li>2 Musculación por grupos musculares</li>
-                                <li>3 Selección de artículos de musculación</li>
+                                <li className="li-square-volume-routine">1 Qué son las rutinas de volumen muscular</li>
+                                <li>2 Normas a seguir en tu rutina de volumen</li>
+                                <li>3 Ejemplo de rutina de volumen muscular efectiva</li>
+                                <li>4 La dieta en la rutina de volumen</li>
+                                <li>5 Suplementos para tu rutina de volumen muscular</li>
+                                <li>6 Las mejores rutinas de volumen</li>
+                                <li>7 Otras rutinas para ganar volumen muscular</li>
+                                <li>8 Rutinas de volumen por grupos musculares</li>
                             </ul>
                         </Row>
-                        <h3>Los tres principios de la musculación</h3>
+                        <h3>Qué son las rutinas de volumen muscular</h3>
                         <p>
-                            En el entrenamiento de la fuerza y la masa muscular hay tres principios de entrenamiento especialmente importantes y que toda persona que inicia en las pesas debe conocer.
+                            Una rutina de volumen es un programa de entrenamiento donde se busca como principal objetivo la <strong>hipertrofia</strong> de los músculos.
+                        </p>
+                        <Row className="img-volume-routine">
+                            <Image src="https://www.cambiatufisico.com/wp-content/uploads/rutina-de-volumen.jpg"></Image>
+                            <i>
+                                El volumen muscular se consigue con constancia, buena alimentación y con una rutina de entrenamiento sólida.
+                            </i>
+                        </Row>
+                        <p>
+                            Si buscas el significado de hipertrofia lo verás claro:
                         </p>
                         <p>
-                            Estos tres principios se basan en el orden correcto al realizar los ejercicios, progresión de entrenamiento y recuperación adecuada.
-                        </p>
-                        <h5>Orden de los ejercicios</h5>
-                        <p>
-                            Según este principio, los músculos grandes deben ser ejercitados antes que los pequeños. La razón es muy simple: un músculo pequeño se fatiga antes y con mayor facilidad que uno grande.
+                            HIPERTROFIA = «CRECIMIENTO EXCESIVO Y ANORMAL DE UN ÓRGANO O DE UNA PARTE DE ÉL DEBIDO A UN AUMENTO DEL TAMAÑO DE SUS CÉLULAS».
                         </p>
                         <p>
-                            Por consiguiente, si los músculos pequeños son ejercitados al principio de la sesión, pueden provocar una fatiga prematura general, impidiendo luego el óptimo rendimiento de los grupos musculares grandes.
+                            Por lo tanto, estas rutinas se centran en <strong>hacer crecer los músculos</strong> mediante grandes pesos y suficiente carga de trabajo para estimular los diferentes tipos de fibras musculares.
                         </p>
                     </section>
                 </Col>
