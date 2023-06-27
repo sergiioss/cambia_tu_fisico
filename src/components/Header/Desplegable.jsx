@@ -51,7 +51,7 @@ const Desplegable = (props) =>{
                             <a className="desplegable" href="/ejercicios-hombro">Ejercicios de Hombro</a>
                             <a className="desplegable" href="/ejercicios-rotador-hombro">Ejercicios de Rotador de Hombro</a>
                             <a className="desplegable" href="/ejercicios-trapecio">Ejercicios de Trapecio</a>
-                            <a className="desplegable" href="/ejerciEjercicios">Ejercicios de Triceps</a>
+                            <a className="desplegable" href="/ejercicios-triceps">Ejercicios de Triceps</a>
                         </ul>
                     </li>
                     <li className={props.styles[0]}><span href="#" className={props.styles[0]}>Nutricion</span>

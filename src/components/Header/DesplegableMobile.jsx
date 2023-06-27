@@ -65,7 +65,7 @@ const DesplegableMobile = (props) =>{
                     <Link onClick={props.onClick} to="/ejercicios-hombro">Ejercicios de Hombro</Link>
                     <Link onClick={props.onClick} to="/ejercicios-rotador-hombro">Ejercicios de Rotador de Hombro</Link>
                     <Link onClick={props.onClick} to="/ejercicios-trapecio">Ejercicios de Trapecio</Link>
-                    <Link onClick={props.onClick} to="/ejerciEjercicios">Ejercicios de Triceps</Link>
+                    <Link onClick={props.onClick} to="/ejerciciosEjercicios">Ejercicios de Triceps</Link>
                 </ListGroup.Item>
             </Accordion.Body>
             </Accordion.Item>

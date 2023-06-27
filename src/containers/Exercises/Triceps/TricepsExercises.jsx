@@ -9,31 +9,32 @@ const TricepsExercises = () => {
 
     return (
 
-        <Container className="fitness-training">
-            <Row className="first-section-fitness">
-                <Col className="body-fitness-training" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
-                    <h1>Musculación, la guía definitiva</h1>
-                    <i>Con nuestros consejos y técnicas dominarás el arte de la musculación para cambiar tu cuerpo.</i>
-                    <Row className="icons-fitness" xs={12} sm={12} md={9} lg={9} xl={9} xxl={9}>
+        <Container className="triceps-exercise-training">
+            <Row className="first-section-triceps-exercise">
+                <Col className="body-triceps-exercise-training" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
+                    <h1>Ejercicios de Tríceps</h1>
+                    <i>Los mejores ejercicios de tríceps que puedes realizar tanto en el gimnasio como en casa. Un músculo sencillo de trabajar y que proporciona a los brazos el verdadero volumen.</i>
+                    <br />
+                    <Row className="icons-triceps-exercise" xs={12} sm={12} md={9} lg={9} xl={9} xxl={9}>
                         <Link className="icon-facebook" to="https://www.facebook.com/CambiatufisicoWeb/"></Link>
                         <Link className="icon-instagram" to="https://www.instagram.com/cambiatufisico_/"></Link>
                         <Link className="icon-twitter" to="https://twitter.com/cambiatufisico"></Link>
                     </Row>
-                    <Image className="img-fitness" src="https://www.cambiatufisico.com/wp-content/uploads/musculacion5-696x392.jpg"></Image>
+                    <Image className="img-triceps-exercise" src="https://www.cambiatufisico.com/wp-content/uploads/ejercicios-triceps-696x392.jpg"></Image>
                     <section>
                         <p>
                             La <strong>musculación</strong> es una disciplina que requiere tiempo, dedicación y esfuerzo. Como su propio nombre indica, su objetivo es el <strong>desarrollo de los músculos.</strong>
                         </p>
                         <p>
-                            En la actualidad, la práctica de la <strong>musculación</strong> es uno de los recursos más utilizados por todo tipo de personas ya sea para mejorar su físico, <a className="links-fitness" href="">ganar masa muscular</a>, <a className="links-fitness">perder peso</a> o simplemente como complemento para todo tipo de deportes.
+                            En la actualidad, la práctica de la <strong>musculación</strong> es uno de los recursos más utilizados por todo tipo de personas ya sea para mejorar su físico, <a className="links-triceps-exercise" href="">ganar masa muscular</a>, <a className="links-triceps-exercise">perder peso</a> o simplemente como complemento para todo tipo de deportes.
                         </p>
                         <p>
                             Te adelantamos que el éxito del proceso de musculación depende de tres pilares básicos: La dieta, el entrenamiento con rutinas de gimnasio adecuadas y el descanso. Si cuidas estos tres pilares tu éxito a la hora de alcanzar tus objetivos está asegurado.
                         </p>
-                        <Row className="square-fitness">
-                            <p className="title-square-fitness">Contenidos</p>
+                        <Row className="square-triceps-exercise">
+                            <p className="title-square-triceps-exercise">Contenidos</p>
                             <ul>
-                                <li className="li-square-fitness">1 Los tres principios de la musculación</li>
+                                <li className="li-square-triceps-exercise">1 Los tres principios de la musculación</li>
                                 <li>2 Musculación por grupos musculares</li>
                                 <li>3 Selección de artículos de musculación</li>
                             </ul>

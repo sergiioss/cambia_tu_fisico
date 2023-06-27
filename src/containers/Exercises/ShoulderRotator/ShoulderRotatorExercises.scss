@@ -1,0 +1,18 @@
+.shoulderRotator-exercise-training{
+    .first-section-shoulderRotator-exercise{
+        width: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    .shoulderRotator-exercise-training{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0.5rem;
+        padding-right: 0rem;
+        .first-section-shoulderRotator-exercise{
+            width: 100%;
+        }
+    }
+}

@@ -67,6 +67,67 @@ const ForearmExercises = () => {
                         <p>
                             Extensores.
                         </p>
+                        <p>
+                            Este ejercicio siempre recomendamos hacerlo en conjunto con el siguiente de esta lista. Es decir, comenzamos con unas series de curl de muñecas con mancuerna palmas abajo (agarre prono) y seguimos con el curl con mancuerna palmas arriba (supino).
+                        </p>
+                        <Row className="image-center">
+                            <Image className="img-forearm-exercise" src="https://www.cambiatufisico.com/wp-content/uploads/2011/03/Curl-de-muneca-con-mancuerna-palmas-abajo.jpg"></Image>
+                        </Row>
+                        <p>
+                            De esta forma nos aseguramos de trabajar la totalidad de los pequeños músculos que recorren nuestro antebrazo.
+                        </p>
+                        <p>
+                            Lo puedes realizar a una sola mano como en la foto o con ambas. No influye en la efectividad del ejercicio.
+                        </p>
+                        <h5>Curl de muñeca con mancuerna palmas arriba (supino)</h5>
+                        <p>
+                            Flexores.
+                        </p>
+                        <p>
+                            Como hemos comentado anteriormente, te recomendamos trabajarlo junto con el ejercicio anterior o ir alternando de semana en semana entre uno y otro.
+                        </p>
+                        <Row className="image-center">
+                            <Image className="img-forearm-exercise" src="https://www.cambiatufisico.com/wp-content/uploads/2011/03/Curl-de-muneca-con-mancuerna-palmas-arriba.jpg"></Image>
+                        </Row>
+                        <p>
+                            Igual que el ejercicio anterior, puedes realizarlo con ambas manos al mismo tiempo.
+                        </p>
+                        <h3>Ejercicios de antebrazo con barra</h3>
+                        <br />
+                        <h5>Curl invertido con barra</h5>
+                        <p>
+                            Nuestro ejercicio favorito de antebrazo merece un artículo propio. El curl invertido es a mejor opción para trabajar los antebrazos sin complicaciones y sabiendo que vas a obtener el máximo beneficio.
+                        </p>
+                        <Row className="image-center">
+                            <Image className="img-forearm-exercise" src="https://www.cambiatufisico.com/wp-content/uploads/2011/03/Curl-invertido-con-barra.jpg"></Image>
+                        </Row>
+                        <p>
+                            <strong>Consejo avanzado</strong>: Para colocar mayor énfasis sobre el braquiorradial (<strong>ver anatomía del antebrazo</strong>), realizar los curls invertidos con un agarre amplio, manteniendo el pulgar en el extremo de la barra. Esto forzará a mantener la barra más cerca del cuerpo originando más implicación en este grupo muscular.
+                        </p>
+                        <h5>Curl de muñeca con barra palmas arriba</h5>
+                        <p>
+                            Manteniendo los brazos quietos (como el resto del cuerpo), flexionar las muñecas tanto como sea posible para elevar la barra hacia la parte superior de los brazos en un corto  rango de movimiento. Contraer los antebrazos contando uno y, a continuación, volver a la posición de inicio.
+                        </p>
+                        <Row className="image-center">
+                            <Image className="img-forearm-exercise" src="https://www.cambiatufisico.com/wp-content/uploads/2011/03/Curl-de-muneca-con-barra-palmas-arriba.jpg"></Image>
+                        </Row>
+                        <p>
+                            <strong>Consejo avanzado</strong>: Como con el curl de muñecas de pie, permitir que la barra se deslice hacia los dedos al final de cada repetición para conseguir un estiramiento mayor.
+                        </p>
+                        <h5>Curl de muñecas con barra palmas abajo</h5>
+                        <Row className="image-center">
+                            <Image className="img-forearm-exercise" src="https://www.cambiatufisico.com/wp-content/uploads/2011/03/Curl-de-munecas-con-barra-palmas-abajo.jpg"></Image>
+                        </Row>
+                        <h5>Curl de muñeca con barra por detrás de la espalda</h5>
+                        <p>
+                            Manteniendo los brazos quietos, flexionar las muñecas para elevar la barra en un corto rango de movimiento de tal manera que las palmas se dirijan hacia arriba al final de la repetición. Contraer el antebrazo contando uno y, a continuación, volver a la posición de inicio.
+                        </p>
+                        <Row className="image-center">
+                            <Image className="img-forearm-exercise" src="https://www.cambiatufisico.com/wp-content/uploads/2011/03/Curl-de-muneca-con-barra-por-detras-de-la-espalda.jpg"></Image>
+                        </Row>
+                        <p>
+                            <strong>Consejo avanzado</strong>: Después de hacer series estándar, realizar una última serie isométrica manteniendo la posición hacia arriba tanto como se pueda. Esto proporcionará un intenso final a la sesión de trabajo.
+                        </p>
                     </section>
                 </Col>
                 <Aside className="aside"/>  

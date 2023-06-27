@@ -233,6 +233,27 @@
             .body-rotator-training{ 
                 display: flex;
                 flex-direction: column;
+                section{
+                    .block-rotator-img{
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 0;
+                        margin-top: 1rem;
+                        .text-block-rotator{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            padding-right: 0;
+                            width: 100%;
+                        }
+                        .img-block-rotator{
+                            position: relative;
+                            padding-right: 0;
+                            width: 100%;
+                            margin-left: 2rem;
+                        }
+                    }
+                }
             } 
         }  
         p{
