@@ -1,0 +1,275 @@
+@import '../../../styles/variables.scss';
+
+.biceps-exercise-training{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    p{
+        font-size: 1rem;
+    }
+    .col{
+        flex:inherit;
+    }
+    .first-section-biceps-exercise{
+        width: 75%;
+        i{
+            margin-left: 0;
+            margin-bottom: 1rem;
+        }
+        .row > * {
+            max-width: inherit;
+        }
+        .body-biceps-exercise-training{ 
+            display: flex;
+            flex-direction: column;
+            .img-biceps-exercise{
+                margin-bottom: 1rem;
+            }
+            .list-biceps-exercise{
+                margin-left: 0;
+                margin-bottom: 1rem;
+            }
+            section{
+                .parrafo-biceps-blue{
+                    color: $blue;
+                    font-weight: 600;
+                    text-align: center;
+                    padding: 1rem;
+                }
+                .blue-list-biceps-exercise{
+                    color: $blue;
+                    font-weight: 700;
+                    margin-bottom: 1rem;
+                    margin-left: 1rem;
+                }
+                .image-center{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 0;
+                    margin-bottom: 1rem;
+                    .img-biceps-exercise{
+                        width: 65%;
+                    }
+                }
+                .blue-list-biceps-exercise{
+                    color: $blue;
+                    font-weight: 700;
+                    margin-bottom: 1rem;
+                }
+                .box-biceps-parrafo{
+                    background-color: $grey-light;
+                    padding: 1rem;
+                    padding-right: 0;
+                    margin-bottom: 1rem;
+                    margin-left: 0rem;
+                    margin-top: 1rem;
+                    border-left: 10px solid $blue;
+                    width: 100%;
+                    .biceps-exercise-square{
+                        margin-bottom: 0;
+                        font-size: 1.4rem;
+                        text-align: center;
+                        .title-red-biceps-square{
+                            color: $red;
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+                .double-img-block{
+                    margin:0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .double-img{
+                        padding: 0;
+                        width:50%;
+                        margin-top: 0.5rem;
+                        margin-bottom: 1.5rem;
+                    }
+                    .double-img-big{
+                        width: 100%;
+                        margin-bottom: 0rem; 
+                    }
+                    i{
+                        font-size: 0.8rem;
+                    }
+                }
+                .box-biceps-exercise-parrafo{
+                    background-color: $grey-light;
+                    padding: 1rem;
+                    padding-right: 0;
+                    margin-bottom: 1rem;
+                    margin-left: 0rem;
+                    margin-top: 1rem;
+                    border-left: 10px solid $blue;
+                    width: 100%;
+                    .biceps-exercise-training-square{
+                        margin-bottom: 0;
+                        font-size: 1.4rem;
+                        text-align: center;
+                        .title-red-biceps-exercise-square{
+                            color: $red;
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+                .box-biceps-exercise-parrafo{
+                    background-color: $grey-light;
+                    padding: 1rem;
+                    padding-right: 0;
+                    margin-bottom: 1rem;
+                    margin-left: 0rem;
+                    margin-top: 1rem;
+                    border-left: 10px solid $blue;
+                    width: 100%;
+                    .biceps-exercise-training-square{
+                        margin-bottom: 0;
+                        font-size: 1.4rem;
+                        text-align: center;
+                        .title-red-biceps-exercise-square{
+                            color: $red;
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+                table{
+                    width: 100%;
+                    margin-bottom: 1rem;
+                }
+                table, th, td {
+                    border: 1px solid $grey-light;
+                }
+                table thead tr td{
+                    background-color: $blue;
+                    color: $white;
+                    padding: 0.2rem;
+                    font-weight: 700;
+                }
+                table tbody tr td{
+                    padding: 0.2rem;
+                }
+                tbody tr:nth-child(even){
+                    background-color: $grey;
+                }
+                .noneBorder{
+                    border:0px;
+                }
+            }
+            .img-aerobic{
+                margin-bottom: 3rem;
+            }
+            .icons-biceps-exercise{
+                display: flex;
+                width: 0;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                padding: 0;
+                margin: 0;
+                gap: 1rem;
+                margin-bottom: 1.5rem;
+                .icon-facebook{
+                    background-color: $blue;
+                    padding: 0.7rem 1.2rem;
+                    @include flex-center;
+                    border-radius: 10%;
+                    .icon-facebook::before{
+                        border: 1px solid $blue;
+                        background-color: $blue;
+                        font-size: 1.2rem;
+                    }
+                }
+                .icon-facebook:hover{
+                    color: $white;
+                    background-color:$blue-light;
+                }
+                .icon-instagram{
+                    background-color: $blue-teal;
+                    padding: 0.7rem 1.2rem;
+                    @include flex-center;
+                    border-radius: 10%;
+                    .icon-instagram::before{
+                        border: 1px solid $blue-teal;
+                        background-color: $blue-teal;
+                        font-size: 1.2rem;
+                    }
+                }
+                .icon-instagram:hover{
+                    color: $white;
+                    background-color: $blue-teal-light;
+                }
+                .icon-twitter{
+                    background-color: $green;
+                    padding: 0.7rem 1.2rem;
+                    @include flex-center;
+                    border-radius: 10%;
+                    .icon-twitter::before{
+                        border: 1px solid $green;
+                        background-color: $green;
+                        font-size: 1.2rem;
+                    }
+                }
+                .icon-twitter:hover{
+                    color: $white;
+                    background-color: $green-light;
+                }
+            }
+            .links-biceps-exercise{
+                color:$blue-links;
+                font-weight: 700;
+            }
+            .links-biceps-exercise:hover{
+                text-decoration: underline;
+            }
+            .square-biceps-exercise{
+                padding: 0.5rem;
+                width: 100%;
+                background-color: $grey-light;
+                padding-left: 0;
+                margin:0;
+                margin-bottom: 1rem;
+                .title-square-biceps-exercise{
+                    text-align: center;
+                    font-weight: 700;
+                }
+                ul li{
+                    list-style: none;
+                    padding-left: 1rem;
+                    color: $blue-links;
+                }
+
+            }
+        }
+        .aside{
+            background-color: $red;
+        }
+    }
+
+    h3,h5{
+        font-weight: 700;
+    }
+}
+@media (max-width: 420px) {
+    .biceps-exercise-training{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0.5rem;
+        padding-right: 0rem;
+        .first-section-biceps-exercise{
+            width: 100%;
+            .body-biceps-exercise-training{ 
+                display: flex;
+                flex-direction: column;
+            } 
+        }  
+        p{
+            padding-left: 0rem;
+        }
+    }
+}
