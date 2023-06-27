@@ -1,8 +1,5 @@
 import './ShoulderRotatorExercises.scss'
-import {Col, Row, Container} from 'react-bootstrap'
-import { Link } from 'react-router-dom'
-import Image from 'react-bootstrap/Image'
-import Aside from '../../../components/Aside/Aside'
+import {Row, Container} from 'react-bootstrap'
 import RotatorTraining from '../../ForMuscle/Rotator/RotatorTraining'
 
 
