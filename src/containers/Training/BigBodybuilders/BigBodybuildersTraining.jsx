@@ -122,7 +122,7 @@ const BigBodybuildersTraining = () => {
                             <Button variant="outline-primary">Leer más</Button>
                         </Col>
                     </Row>
-                    <Row className="block-big-body-builders">
+                    <Row>
                         <Image className="img-big-body-builders" src="https://www.cambiatufisico.com/wp-content/uploads/fondos-pecho-696x392.jpg.webp"></Image>
                         <Col className="data-img-body-builders">
                             <h3>Entrenamiento con fondos para pecho y tríceps</h3>
