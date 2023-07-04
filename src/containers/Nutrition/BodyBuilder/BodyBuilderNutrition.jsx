@@ -28,10 +28,10 @@ const BodyBuilderNutrition = () => {
                     </Row>
                     <Row className="double-img-bodyBuilder">
                         <Row className="img-bodyBuilder-nutrition">
-                            <a className="img-fluid" href="https://www.google.com/"><Image src="https://www.cambiatufisico.com/wp-content/uploads/cbd-deportistas-696x464.jpg"></Image></a>
+                            <a className="img-fluid" href="https://www.google.com/"><Image className="image-bodyBuilder" src="https://www.cambiatufisico.com/wp-content/uploads/cbd-deportistas-696x464.jpg"></Image></a>
                         </Row>
                         <Row className="img-bodyBuilder-nutrition">
-                            <a className="img-fluid" href="https://www.google.com/"><Image src="https://www.cambiatufisico.com/wp-content/uploads/embutidos-gimnasio-696x449.png"></Image></a>
+                            <a className="img-fluid" href="https://www.google.com/"><Image className="image-bodyBuilder" src="https://www.cambiatufisico.com/wp-content/uploads/embutidos-gimnasio-696x449.png"></Image></a>
                         </Row>
                     </Row>
                 </Col>
@@ -62,7 +62,7 @@ const BodyBuilderNutrition = () => {
                             <Col className="data-img-body-builders">
                                 <h3 className="parrafo-img-body-builders">Necesitas más proteínas si haces deporte, ¡Descubre cuantas!</h3>
                                 <p>
-                                 Aunque siempre se ha dicho que los deportistas necesitan un mayor aporte de proteínas, de vez en cuando aparece el típico "gurú" del entrenamiento proclamando completamente lo contrario mientras flexiona sus enormes músculos (conseguidos no...
+                                 Aunque siempre se ha dicho que los deportistas necesitan un mayor aporte de proteínas, de vez en cuando aparece el típico "gurú" del entrenamiento proclamando completamente lo contrario mientras flexiona sus enormes músculos conseguidos no...
                                 </p>
                                 <Button variant="outline-primary">Leer más</Button>
                             </Col>
