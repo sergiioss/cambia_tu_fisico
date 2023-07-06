@@ -12,7 +12,7 @@ const HealthyLivingNutrition = () => {
         <Container className="healthyLiving-nutrition-training">
             <Row className="first-section-healthyLiving-nutrition">
                 <Col className="body-healthyLiving-nutrition-training-main" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
-                    <h1>NUTRICIÓN CULTURISTA</h1>
+                    <h1>NUTRICIÓN Y VIDA SALUDABLE</h1>
                     <i>
                     <p>
                         A veces la alimentación de los practicantes avanzados de musculación no es 100% saludable. Los culturistas llevan sus cuerpos al <strong>límite</strong> y en ocasiones tienen que introducir cambios drásticos en sus macros.
