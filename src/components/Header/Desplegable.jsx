@@ -85,6 +85,7 @@ const Desplegable = (props) =>{
                     <li className={props.styles[0]}><span href="#" className={props.styles[0]}>Mujer</span>
                         <ul className={props.styles[1]}>
                             <a className="desplegable" href="/mujer-dietas-y-nutricion">Dietas y nutrición</a>
+                            <a className="desplegable" href="/mujer-rutinas">Rutinas para mujeres</a>
                             <a className="desplegable" href="/mujer-pesas-y-entrenamientos">Pesas y Entramientos</a>
                         </ul>
                     </li>

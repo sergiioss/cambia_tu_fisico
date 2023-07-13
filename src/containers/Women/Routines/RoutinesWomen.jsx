@@ -8,50 +8,46 @@ import Aside from '../../../components/Aside/Aside'
 const RoutinesWomen = () => {
 
     return (
-
-        <Container className="fitness-training">
-            <Row className="first-section-fitness">
-                <Col className="body-fitness-training" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
-                    <h1>Musculación, la guía definitiva</h1>
-                    <i>Con nuestros consejos y técnicas dominarás el arte de la musculación para cambiar tu cuerpo.</i>
-                    <Row className="icons-fitness" xs={12} sm={12} md={9} lg={9} xl={9} xxl={9}>
+        <Container className="routines-women">
+            <Row className="first-section-routines-women">
+                <Col className="body-routines-women" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
+                    <h1>Rutinas de ejercicios con pesas para mujer</h1>
+                    <br />
+                    <Row className="icons-routines-women" xs={12} sm={12} md={9} lg={9} xl={9} xxl={9}>
                         <Link className="icon-facebook" to="https://www.facebook.com/CambiatufisicoWeb/"></Link>
                         <Link className="icon-instagram" to="https://www.instagram.com/cambiatufisico_/"></Link>
                         <Link className="icon-twitter" to="https://twitter.com/cambiatufisico"></Link>
                     </Row>
-                    <Image className="img-fitness" src="https://www.cambiatufisico.com/wp-content/uploads/musculacion5-696x392.jpg"></Image>
+                    <Image className="img-routines-women" src="https://www.cambiatufisico.com/wp-content/uploads/rutinas-pesas-mujer1-696x392.jpg"></Image>
                     <section>
                         <p>
-                            La <strong>musculación</strong> es una disciplina que requiere tiempo, dedicación y esfuerzo. Como su propio nombre indica, su objetivo es el <strong>desarrollo de los músculos.</strong>
+                            Las <strong>rutinas</strong> de pesas para mujer tienen muchos ejercicios y técnicas en común que las rutinas de pesas realizadas normalmente por los hombres.
                         </p>
                         <p>
-                            En la actualidad, la práctica de la <strong>musculación</strong> es uno de los recursos más utilizados por todo tipo de personas ya sea para mejorar su físico, <a className="links-fitness" href="">ganar masa muscular</a>, <a className="links-fitness">perder peso</a> o simplemente como complemento para todo tipo de deportes.
+                            Aun así es necesario tener en cuenta pequeños detalles  en el <strong>entrenamiento con pesas</strong> ya que los objetivos de las mujeres no suelen ser los mismos que los de un hombre.
                         </p>
                         <p>
-                            Te adelantamos que el éxito del proceso de musculación depende de tres pilares básicos: La dieta, el entrenamiento con rutinas de gimnasio adecuadas y el descanso. Si cuidas estos tres pilares tu éxito a la hora de alcanzar tus objetivos está asegurado.
+                            Os presentamos un conjunto de rutinas de musculación especialmente orientadas para la mujer. Como ya te explicamos en el apartado <strong> Pesas en la Mujer</strong>, el cual deberías haber leído atentamente antes de probar estas rutinas el hecho de realizar <strong>ejercicios con pesas</strong>, no significa que vayas a coger un aspecto hombruno, sino todo lo contrario, adquirirás un aspecto <strong>estético, tonificado y bien proporcionado</strong>.
                         </p>
-                        <Row className="square-fitness">
-                            <p className="title-square-fitness">Contenidos</p>
-                            <ul>
-                                <li className="li-square-fitness">1 Los tres principios de la musculación</li>
-                                <li>2 Musculación por grupos musculares</li>
-                                <li>3 Selección de artículos de musculación</li>
-                            </ul>
-                        </Row>
-                        <h3>Los tres principios de la musculación</h3>
+                        <li className="li-routines-sublist">Ejercicios de glúteos</li>
+                        <li className="li-routines-sublist">Elaboración de un programa de ejercicios en mujer</li>
+                        <li className="li-routines-sublist">Entrenamiento de pesas en circuito</li>
+                        <li className="li-routines-sublist">Entrenamiento de piernas para mujer</li>
+                        <li className="li-routines-sublist">Rutina de cuerpo completo para mujer</li>
+                        <li className="li-routines-sublist">Rutina de ejercicios para tonificar</li>
+                        <li className="li-routines-sublist">Rutina de entrenamiento para tus primeros tres meses en el gimnasio</li>
+                        <li className="li-routines-sublist">Rutina de gimnasio para mujer</li>
+                        <li className="li-routines-sublist">Rutina de pesas para piernas (Mujeres)</li>
+                        <li className="li-routines-sublist">Rutina dividida de 3 días para mujer principiante</li>
+                        <li className="li-routines-sublist">Rutina para unos glúteos duros y tonificados</li>
+                        <br />
                         <p>
-                            En el entrenamiento de la fuerza y la masa muscular hay tres principios de entrenamiento especialmente importantes y que toda persona que inicia en las pesas debe conocer.
-                        </p>
-                        <p>
-                            Estos tres principios se basan en el orden correcto al realizar los ejercicios, progresión de entrenamiento y recuperación adecuada.
-                        </p>
-                        <h5>Orden de los ejercicios</h5>
-                        <p>
-                            Según este principio, los músculos grandes deben ser ejercitados antes que los pequeños. La razón es muy simple: un músculo pequeño se fatiga antes y con mayor facilidad que uno grande.
+                            Si llevas poco tiempo en el mundo de las pesas o eres una principiante te aconsejamos que realices las rutinas más sencillas, y cada dos meses vayas cambiándolas por otras progresivamente más exigentes.
                         </p>
                         <p>
-                            Por consiguiente, si los músculos pequeños son ejercitados al principio de la sesión, pueden provocar una fatiga prematura general, impidiendo luego el óptimo rendimiento de los grupos musculares grandes.
+                            En cualquier caso, en un gimnasio podrán hacerte una rutina a tu medida, pero desconfía de las rutinas que <strong>solo</strong> constan de ejercicio aerobio, no sirven para nada excepto ralentizar el metabolismo y perder músculo.
                         </p>
+                        <p></p>
                     </section>
                 </Col>
                 <Aside className="aside"/>  

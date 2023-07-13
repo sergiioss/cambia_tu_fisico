@@ -1,0 +1,169 @@
+@import '../../../styles/variables.scss';
+
+.weightsAndTraining-women{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    p{
+        font-size: 1rem;
+    }
+    .col{
+        flex:inherit;
+    }
+    .first-section-weightsAndTraining-women{
+        width: 75%;
+        i{
+            margin-left: 0;
+            margin-bottom: 1rem;
+        }
+        .row > * {
+            max-width: inherit;
+        }
+        .body-weightsAndTraining-women{ 
+            display: flex;
+            flex-direction: column;
+            section{
+                .li-weightsAndTraining{
+                    margin-left: 1rem;
+                    margin-bottom: 1rem;
+                }
+                .li-weightsAndTraining-sublist{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    margin-left: 2rem;
+                    position: relative;
+                }
+                .li-weightsAndTraining-sublist::marker{
+                    content: '';
+                }
+                .li-weightsAndTraining-sublist::before{
+                    content: '○';
+                    font-size: 0.5rem;
+                    text-align: center;
+                    margin-right: 0.5rem;
+                }
+            }
+            .row >*{
+                padding: 0rem;
+                margin: 0;
+            }
+            .img-weightsAndTraining-women{
+                margin: 0;
+                margin-bottom: 3rem;
+                i{
+                    font-size: 0.8rem;
+                }
+            }
+            .icons-weightsAndTraining-women{
+                display: flex;
+                width: 0;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                padding: 0;
+                margin: 0;
+                gap: 1rem;
+                margin-bottom: 1.5rem;
+                .icon-facebook{
+                    background-color: $blue;
+                    padding: 0.7rem 1.2rem;
+                    @include flex-center;
+                    border-radius: 10%;
+                    .icon-facebook::before{
+                        border: 1px solid $blue;
+                        background-color: $blue;
+                        font-size: 1.2rem;
+                    }
+                }
+                .icon-facebook:hover{
+                    color: $white;
+                    background-color:$blue-light;
+                }
+                .icon-instagram{
+                    background-color: $blue-teal;
+                    padding: 0.7rem 1.2rem;
+                    @include flex-center;
+                    border-radius: 10%;
+                    .icon-instagram::before{
+                        border: 1px solid $blue-teal;
+                        background-color: $blue-teal;
+                        font-size: 1.2rem;
+                    }
+                }
+                .icon-instagram:hover{
+                    color: $white;
+                    background-color: $blue-teal-light;
+                }
+                .icon-twitter{
+                    background-color: $green;
+                    padding: 0.7rem 1.2rem;
+                    @include flex-center;
+                    border-radius: 10%;
+                    .icon-twitter::before{
+                        border: 1px solid $green;
+                        background-color: $green;
+                        font-size: 1.2rem;
+                    }
+                }
+                .icon-twitter:hover{
+                    color: $white;
+                    background-color: $green-light;
+                }
+            }
+            .links-weightsAndTraining-women{
+                color:$blue-links;
+                font-weight: 700;
+            }
+            .links-weightsAndTraining-women:hover{
+                text-decoration: underline;
+            }
+            .square-weightsAndTraining-women{
+                padding: 0.5rem;
+                width: 100%;
+                background-color: $grey-light;
+                padding-left: 0;
+                margin:0;
+                margin-bottom: 1rem;
+                .title-square-weightsAndTraining-women{
+                    text-align: center;
+                    font-weight: 700;
+                }
+                ul li{
+                    list-style: none;
+                    padding-left: 1rem;
+                    color: $blue-links;
+                }
+
+            }
+        }
+        .aside{
+            background-color: $red;
+        }
+    }
+
+    h3,h5{
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 420px) {
+    .weightsAndTraining-women{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0.5rem;
+        padding-right:0rem;
+        .first-section-weightsAndTraining-women{
+            width: 100%;
+        }
+        p{
+            padding-left: 0rem;
+        }
+    }
+
+}
