@@ -9,17 +9,17 @@ const WeightsAndTrainingWomen = () => {
 
     return (
 
-        <Container className="womensAndNutrition-women">
-            <Row className="first-section-womensAndNutrition-women">
-                <Col className="body-womensAndNutrition-women" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
+        <Container className="weightsAndTraining-women">
+            <Row className="first-section-weightsAndTraining-women">
+                <Col className="body-weightsAndTraining-women" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
                     <h1>Pesas y entrenamiento para mujeres</h1>
                     <br />
-                    <Row className="icons-womensAndNutrition-women" xs={12} sm={12} md={9} lg={9} xl={9} xxl={9}>
+                    <Row className="icons-weightsAndTraining-women" xs={12} sm={12} md={9} lg={9} xl={9} xxl={9}>
                         <Link className="icon-facebook" to="https://www.facebook.com/CambiatufisicoWeb/"></Link>
                         <Link className="icon-instagram" to="https://www.instagram.com/cambiatufisico_/"></Link>
                         <Link className="icon-twitter" to="https://twitter.com/cambiatufisico"></Link>
                     </Row>
-                    <Image className="img-womensAndNutrition-women" src="https://www.cambiatufisico.com/wp-content/uploads/pesas-para-mujeres-696x464.jpg"></Image>
+                    <Image className="img-weightsAndTraining-women" src="https://www.cambiatufisico.com/wp-content/uploads/pesas-para-mujeres-696x464.jpg"></Image>
                     <section>
                         <p>
                             Actualmente cada vez más mujeres deciden utilizar las <strong>pesas y las rutinas de musculación</strong> para mejorar sus  cuerpos y esculpir sus curvas.
@@ -30,10 +30,10 @@ const WeightsAndTrainingWomen = () => {
                         <p>
                             Las <strong>jóvenes</strong> pueden emplearlo para esculpir un cuerpo atractivo que puedan mantener toda la vida; las <strong>deportistas</strong>, para aumentar su fuerza o resistencia entrenando con pesas; las <strong>activas</strong>, pueden sacar provecho de estar más en forma, más atractivas y más sanas <strong>a cualquier edad</strong>.
                         </p>
-                        <Row className="square-womensAndNutrition-women">
-                            <p className="title-square-womensAndNutrition-women">Contenidos</p>
+                        <Row className="square-weightsAndTraining-women">
+                            <p className="title-square-weightsAndTraining-women">Contenidos</p>
                             <ul>
-                                <li className="li-square-womensAndNutrition-women">1 El miedo a parecer un hombre</li>
+                                <li className="li-square-weightsAndTraining-women">1 El miedo a parecer un hombre</li>
                                 <li>2 Principales beneficios de las pesas para mujeres</li>
                                 <li>3 El cardio por si solo no funciona</li>
                                 <li>4 Demasiado énfasis en las piernas</li>
@@ -51,7 +51,7 @@ const WeightsAndTrainingWomen = () => {
                         <p>
                             Analicemos el porque las chicas no pueden <strong>hipertrofiar sus músculos</strong> como los hombres.
                         </p>
-                        <Row className="img-womensAndNutrition-women">
+                        <Row className="img-weightsAndTraining-women">
                             <Image src="https://www.cambiatufisico.com/wp-content/uploads/mujer-entrenamiento.jpg"></Image>
                             <i>Las sentadillas es uno de los ejercicios con pesas para mujeres más efectivos que existen.</i>
                         </Row>
@@ -83,7 +83,7 @@ const WeightsAndTrainingWomen = () => {
                         <p>
                             El entrenamiento con pesas ayuda a todas las mujeres a afrontar el estrés cotidiano, combatir la obesidad y evitar problemas cardiovasculares. También es la mejor herramienta para reestructurar el <strong>cuerpo después de dar a luz.</strong>
                         </p>
-                        <Row className="img-womensAndNutrition-women">
+                        <Row className="img-weightsAndTraining-women">
                             <Image src="https://www.cambiatufisico.com/wp-content/uploads/mujer-pesas.jpg"></Image>
                             <i>
                                 Las pesas, en niveles de entrenamiento altos, pueden proporcionarte un cuerpo musculado y a la vez femenino.
@@ -105,7 +105,7 @@ const WeightsAndTrainingWomen = () => {
                         <p>                            
                             Una práctica común es limitarse al <strong>trabajo cardiovascular</strong> en el gimnasio dando como resultado pérdidas de peso mínimas así como flacidez en el cuerpo.
                         </p>
-                        <Row className="img-womensAndNutrition-women">
+                        <Row className="img-weightsAndTraining-women">
                             <Image src="https://www.cambiatufisico.com/wp-content/uploads/mujer-en-forma.jpg"></Image>
                             <i>
                                 Las pesas pueden proporcionar a las mujeres un físico más tonificado, más duro y por supuesto más estético.
