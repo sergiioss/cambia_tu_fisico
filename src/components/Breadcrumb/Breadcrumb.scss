@@ -1,0 +1,28 @@
+@import '../../styles/variables.scss';
+
+.mayus{
+    text-transform: capitalize;
+}
+a{
+    all:unset;
+}
+.breadcrumb-item{
+    font-weight: bolder;
+}
+.mayus::after{
+    margin-right: 1rem;
+    content: " /";
+}
+.breadcrumb-color{
+    color: $blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.url::after{
+    content: "\0000a0";
+}
+.url{
+    text-transform: capitalize;
+    color: $grey-suva;
+    font-weight: bolder;
+}

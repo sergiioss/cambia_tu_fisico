@@ -3,7 +3,7 @@ import {Col, Row, Container} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Image from 'react-bootstrap/Image'
 import Aside from '../../../components/Aside/Aside'
-
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 
 const VolumeRoutines = () => {
 
@@ -11,6 +11,7 @@ const VolumeRoutines = () => {
 
         <Container className="volume-routine-training">
             <Row className="first-section-volume-routine">
+                <Breadcrumb></Breadcrumb>
                 <Col className="body-volume-routine-training" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
                     <h1>Rutinas de volumen para ganar masa muscular</h1>
                     <i>¡Las mejores rutinas de volumen muscular están aquí! ¡A entrenar!</i>

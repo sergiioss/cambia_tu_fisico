@@ -3,7 +3,7 @@ import {Col, Row, Container} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Image from 'react-bootstrap/Image'
 import Aside from '../../../components/Aside/Aside'
-
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 
 const ElasticBandsExercises = () => {
 
@@ -11,6 +11,7 @@ const ElasticBandsExercises = () => {
 
         <Container className="elasticBands-exercise-training">
             <Row className="first-section-elasticBands-exercise">
+            <Breadcrumb></Breadcrumb>
                 <Col className="body-elasticBands-exercise-training" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
                     <h1>Ejercicios con bandas elásticas</h1>
                     <i>Los ejercicios con bandas elásticas son una opción eficaz y barata para entrenar en cualquier lugar.</i>

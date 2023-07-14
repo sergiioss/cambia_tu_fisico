@@ -3,7 +3,7 @@ import {Col, Row, Container} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Image from 'react-bootstrap/Image'
 import Aside from '../../../components/Aside/Aside'
-
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 
 const HowSupplements = () => {
 
@@ -11,6 +11,7 @@ const HowSupplements = () => {
 
         <Container className="howSupplements-supplements">
             <Row className="first-section-howSupplements">
+            <Breadcrumb></Breadcrumb>
                 <Col className="body-howSupplements-supplements" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
                     <h1>Suplementos dietéticos, como tomarlos</h1>
                     <br />

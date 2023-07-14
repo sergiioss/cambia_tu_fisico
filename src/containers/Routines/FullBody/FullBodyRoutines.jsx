@@ -3,7 +3,7 @@ import {Col, Row, Container} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Image from 'react-bootstrap/Image'
 import Aside from '../../../components/Aside/Aside'
-
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 
 const FullBodyRoutines = () => {
 
@@ -11,6 +11,7 @@ const FullBodyRoutines = () => {
 
         <Container className="fullBody-routine-training">
             <Row className="first-section-fullBody-routine">
+            <Breadcrumb></Breadcrumb>
                 <Col className="body-fullBody-routine-training" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
                     <h1>Rutinas Full Body</h1>
                     <i>Trabajar el cuerpo completo funciona... sal de tu rutina de siempre y obtén verdaderos resultados.</i>

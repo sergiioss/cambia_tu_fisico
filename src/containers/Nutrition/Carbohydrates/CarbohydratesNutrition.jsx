@@ -3,7 +3,7 @@ import {Col, Row, Container} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Image from 'react-bootstrap/Image'
 import Aside from '../../../components/Aside/Aside'
-
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 
 const CarbohydratesNutrition = () => {
 
@@ -11,6 +11,7 @@ const CarbohydratesNutrition = () => {
 
         <Container className="carbohydrates-nutrition-training">
             <Row className="first-section-carbohydrates-nutrition">
+            <Breadcrumb></Breadcrumb>
                 <Col className="body-carbohydrates-nutrition" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
                     <h1>Carbohidratos, como dominar el combustible de tus músculos</h1>
                     <i>Cómo consumir los carbohidratos que tu cuerpo necesita.</i>

@@ -3,6 +3,7 @@ import {Col, Row, Container, Button} from 'react-bootstrap'
 import { Link} from 'react-router-dom'
 import Image from 'react-bootstrap/Image'
 import Aside from '../../../components/Aside/Aside'
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 
 
 const BodyBuilderNutrition = () => {
@@ -11,6 +12,7 @@ const BodyBuilderNutrition = () => {
 
         <Container className="bodyBuilder-nutrition-training">
             <Row className="first-section-bodyBuilder-nutrition">
+            <Breadcrumb></Breadcrumb>
                 <Col className="body-bodyBuilder-nutrition-training-main" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
                     <h1>NUTRICIÓN CULTURISTA</h1>
                     <i>

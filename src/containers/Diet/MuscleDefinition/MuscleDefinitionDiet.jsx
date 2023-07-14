@@ -2,12 +2,14 @@ import { Col, Container, Row, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Aside from '../../../components/Aside/Aside';
 import './MuscleDefinitionDiet.scss'
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 
 const MuscleDefinitionDiet = () => {
 
     return (
         <Container className="muscleDefinition-diet">
             <Row className="first-section-muscleDefinition-diet">
+            <Breadcrumb></Breadcrumb>
                 <Col className="body-muscleDefinition-diet" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
                     <h1>Dietas para ganar masa muscular</h1>
                     <br />

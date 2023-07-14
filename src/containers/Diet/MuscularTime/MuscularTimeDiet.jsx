@@ -2,12 +2,14 @@ import './MuscularTimeDiet.scss'
 import { Col, Container, Row, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Aside from '../../../components/Aside/Aside';
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 
 const MuscularTimeDiet = () => {
 
     return (
       <Container className="muscularTime-diet">
       <Row className="first-section-muscularTime-diet">
+      <Breadcrumb></Breadcrumb>
           <Col className="body-muscularTime-diet" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
               <h1>Dietas de Definición Muscular</h1>
               <br />

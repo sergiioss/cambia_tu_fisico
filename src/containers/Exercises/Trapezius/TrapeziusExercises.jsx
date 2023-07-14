@@ -3,7 +3,7 @@ import {Col, Row, Container} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Image from 'react-bootstrap/Image'
 import Aside from '../../../components/Aside/Aside'
-
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 
 const TrapeziusExercises = () => {
 
@@ -11,6 +11,7 @@ const TrapeziusExercises = () => {
 
         <Container className="trapezius-exercise-training">
             <Row className="first-section-trapezius-exercise">
+            <Breadcrumb></Breadcrumb>
                 <Col className="body-trapezius-exercise-training" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
                     <h1>Ejercicios de Trapecios</h1>
                     <br />

@@ -3,7 +3,7 @@ import {Col, Row, Container} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Image from 'react-bootstrap/Image'
 import Aside from '../../../components/Aside/Aside'
-
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 
 const HomeRoutines = () => {
 
@@ -11,6 +11,7 @@ const HomeRoutines = () => {
 
         <Container className="home-routine-training">
             <Row className="first-section-home-routine">
+            <Breadcrumb></Breadcrumb>
                 <Col className="body-home-routine-training" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
                     <h1>Rutinas de pesas y ejercicios para hacer en casa</h1>
                     <br />

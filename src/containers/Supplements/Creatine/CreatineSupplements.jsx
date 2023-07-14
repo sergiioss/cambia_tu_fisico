@@ -3,7 +3,7 @@ import {Col, Row, Container} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Image from 'react-bootstrap/Image'
 import Aside from '../../../components/Aside/Aside'
-
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 
 const CreatineSupplements = () => {
 
@@ -11,6 +11,7 @@ const CreatineSupplements = () => {
 
         <Container className="creatine-supplements">
             <Row className="first-section-creatine-supplements">
+            <Breadcrumb></Breadcrumb>
                 <Col className="body-creatine-supplements" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
                     <h1>Creatina, el mejor suplemento para ganar masa muscular y fuerza</h1>
                     <br />

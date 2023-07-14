@@ -3,7 +3,7 @@ import {Col, Row, Container} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Image from 'react-bootstrap/Image'
 import Aside from '../../../components/Aside/Aside'
-
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 
 const FatsNutrition = () => {
 
@@ -11,6 +11,7 @@ const FatsNutrition = () => {
 
         <Container className="fats-nutrition">
             <Row className="first-section-fats-nutrition">
+            <Breadcrumb></Breadcrumb>
                 <Col className="body-fats-nutrition" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
                     <h1>Grasas, ¿Cuales debes tomar y en que cantidad?</h1>
                     <i>Descubre las grasas que debes tomar y en qué cantidades.</i>

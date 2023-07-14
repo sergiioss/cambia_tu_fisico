@@ -3,7 +3,7 @@ import {Col, Row, Container} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Image from 'react-bootstrap/Image'
 import Aside from '../../../components/Aside/Aside'
-
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 
 const BackExercises = () => {
 
@@ -11,6 +11,7 @@ const BackExercises = () => {
 
         <Container className="back-exercise-training">
             <Row className="first-section-back-exercise">
+            <Breadcrumb></Breadcrumb>
                 <Col className="body-back-exercise-training" xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
                     <h1>Ejercicios de Espalda</h1>
                     <i>Los ejercicios de espalda más efectivos que puedes realizar en tu rutina.</i>
