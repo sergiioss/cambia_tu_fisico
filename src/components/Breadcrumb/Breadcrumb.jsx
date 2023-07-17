@@ -8,7 +8,6 @@ const Breadcrumb = () => {
     let segundo = url.split(" ");
     segundo.shift();
     let probando = segundo.splice(1,3);
-    console.log(probando)
     return (
         <>
             <nav aria-label="breadcrumb">
