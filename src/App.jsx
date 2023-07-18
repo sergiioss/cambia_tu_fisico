@@ -95,7 +95,7 @@ function App() {
    <BrowserRouter>
     <Header/>
       <Routes>
-        <Route path="/camiba_tu_fisico/inicio" element={<Inicio/>}></Route>
+        <Route path="/" element={<Inicio/>}></Route>
         <Route path="/musculacion" element={<FitnessTraining/>}></Route>
         <Route path="/entrenamiento-alta-intensidad" element={<HitTraining/>}></Route>
         <Route path="/principiantes" element={<BeginnersTraining/>}></Route>
