@@ -11,12 +11,12 @@ const DesplegableMobile = (props) =>{
             <Accordion.Header className="accordion-header-first">Entrenamiento</Accordion.Header>
             <Accordion.Body>
                 <ListGroup.Item >
-                    <Link to="/musculacion">Musculación</Link>
-                    <Link to="/entrenamiento-alta-intensidad">Hit</Link>
-                    <Link to="/principiantes">Principiantes</Link>
-                    <Link to="/ejercicio-aerobico">Ejercicio Aerobico</Link>
-                    <Link to="/culturistas">Culturistas</Link>
-                    <Link to="/estiramientos">Estiramientos</Link>
+                    <Link onClick={props.onClick} to="/musculacion">Musculación</Link>
+                    <Link onClick={props.onClick} to="/entrenamiento-alta-intensidad">Hit</Link>
+                    <Link onClick={props.onClick} to="/principiantes">Principiantes</Link>
+                    <Link onClick={props.onClick} to="/ejercicio-aerobico">Ejercicio Aerobico</Link>
+                    <Link onClick={props.onClick} to="/culturistas">Culturistas</Link>
+                    <Link onClick={props.onClick} to="/estiramientos">Estiramientos</Link>
                 </ListGroup.Item>
             </Accordion.Body>
             </Accordion.Item>
@@ -24,14 +24,14 @@ const DesplegableMobile = (props) =>{
             <Accordion.Header className="accordion-header-first">Por músculo</Accordion.Header>
             <Accordion.Body>
                 <ListGroup.Item>
-                    <Link to="/abdominal">Entrenamieno de Abdominal</Link>
-                    <Link to="/espalda">Entrenamieno de Espalda</Link>
-                    <Link to="/biceps">Entrenamieno de Biceps</Link>
-                    <Link to="/pecho">Entrenamieno de Pecho</Link>
-                    <Link to="/pierna">Entrenamieno de Pierna</Link>
-                    <Link to="/rotador">Entrenamieno de Rotador</Link>
-                    <Link to="/hombro">Entrenamieno de Hombro</Link>
-                    <Link to="/triceps">Entrenamieno de Triceps</Link>
+                    <Link onClick={props.onClick} to="/abdominal">Entrenamieno de Abdominal</Link>
+                    <Link onClick={props.onClick} to="/espalda">Entrenamieno de Espalda</Link>
+                    <Link onClick={props.onClick} to="/biceps">Entrenamieno de Biceps</Link>
+                    <Link onClick={props.onClick} to="/pecho">Entrenamieno de Pecho</Link>
+                    <Link onClick={props.onClick} to="/pierna">Entrenamieno de Pierna</Link>
+                    <Link onClick={props.onClick} to="/rotador">Entrenamieno de Rotador</Link>
+                    <Link onClick={props.onClick} to="/hombro">Entrenamieno de Hombro</Link>
+                    <Link onClick={props.onClick} to="/triceps">Entrenamieno de Triceps</Link>
                 </ListGroup.Item>
             </Accordion.Body>
             </Accordion.Item>
@@ -39,14 +39,14 @@ const DesplegableMobile = (props) =>{
             <Accordion.Header className="accordion-header-first">Rutinas</Accordion.Header>
             <Accordion.Body>
                 <ListGroup.Item>
-                    <Link to="/rutinas-abdominal">Rutinas Abdominal</Link>
-                    <Link to="/rutinas-principiantes">Rutinas Principiantes</Link>
-                    <Link to="/rutinas-definicion">Rutinas Definicion</Link>
-                    <Link to="/rutinas-fullbody">Rutinas Fullbdoy</Link>
-                    <Link to="/rutinas-en-casa">Rutinas en Casa</Link>
-                    <Link to="/rutinas-fuerza">Rutinas de Fuerza</Link>
-                    <Link to="/rutinas-volumen">Rutinas de Volumen</Link>
-                    <Link to="/otras-rutinas">Otras Rutinas</Link>
+                    <Link onClick={props.onClick} to="/rutinas-abdominal">Rutinas Abdominal</Link>
+                    <Link onClick={props.onClick} to="/rutinas-principiantes">Rutinas Principiantes</Link>
+                    <Link onClick={props.onClick} to="/rutinas-definicion">Rutinas Definicion</Link>
+                    <Link onClick={props.onClick} to="/rutinas-fullbody">Rutinas Fullbdoy</Link>
+                    <Link onClick={props.onClick} to="/rutinas-en-casa">Rutinas en Casa</Link>
+                    <Link onClick={props.onClick} to="/rutinas-fuerza">Rutinas de Fuerza</Link>
+                    <Link onClick={props.onClick} to="/rutinas-volumen">Rutinas de Volumen</Link>
+                    <Link onClick={props.onClick} to="/otras-rutinas">Otras Rutinas</Link>
                 </ListGroup.Item>
             </Accordion.Body>
             </Accordion.Item>
@@ -54,18 +54,18 @@ const DesplegableMobile = (props) =>{
             <Accordion.Header className="accordion-header-first">Ejercicios</Accordion.Header>
             <Accordion.Body>
                 <ListGroup.Item>
-                    <Link to="/ejercicios-abdominal">Ejercicios de Abdominal</Link>
-                    <Link to="/ejercicios-espalda">Ejercicios de Espalda</Link>
-                    <Link to="/ejercicios-basicos">Ejercicios Basicos</Link>
-                    <Link to="/ejercicios-biceps">Ejercicios de Biceps</Link>
-                    <Link to="/ejercicios-pecho">Ejercicios de Pecho</Link>
-                    <Link to="/ejercicios-bandas-elasticas">Ejercicios Bandas Elásticas</Link>
-                    <Link to="/ejercicios-antebrazo">Ejercicios de Antebrazo</Link>
-                    <Link to="/ejercicios-pierna">Ejercicios de Pierna</Link>
-                    <Link to="/ejercicios-hombro">Ejercicios de Hombro</Link>
-                    <Link to="/ejercicios-rotador-hombro">Ejercicios de Rotador de Hombro</Link>
-                    <Link to="/ejercicios-trapecio">Ejercicios de Trapecio</Link>
-                    <Link to="/ejerciciosEjercicios">Ejercicios de Triceps</Link>
+                    <Link onClick={props.onClick} to="/ejercicios-abdominal">Ejercicios de Abdominal</Link>
+                    <Link onClick={props.onClick} to="/ejercicios-espalda">Ejercicios de Espalda</Link>
+                    <Link onClick={props.onClick} to="/ejercicios-basicos">Ejercicios Basicos</Link>
+                    <Link onClick={props.onClick} to="/ejercicios-biceps">Ejercicios de Biceps</Link>
+                    <Link onClick={props.onClick} to="/ejercicios-pecho">Ejercicios de Pecho</Link>
+                    <Link onClick={props.onClick} to="/ejercicios-bandas-elasticas">Ejercicios Bandas Elásticas</Link>
+                    <Link onClick={props.onClick} to="/ejercicios-antebrazo">Ejercicios de Antebrazo</Link>
+                    <Link onClick={props.onClick} to="/ejercicios-pierna">Ejercicios de Pierna</Link>
+                    <Link onClick={props.onClick} to="/ejercicios-hombro">Ejercicios de Hombro</Link>
+                    <Link onClick={props.onClick} to="/ejercicios-rotador-hombro">Ejercicios de Rotador de Hombro</Link>
+                    <Link onClick={props.onClick} to="/ejercicios-trapecio">Ejercicios de Trapecio</Link>
+                    <Link onClick={props.onClick} to="/ejerciciosEjercicios">Ejercicios de Triceps</Link>
                 </ListGroup.Item>
             </Accordion.Body>
             </Accordion.Item>
@@ -73,11 +73,11 @@ const DesplegableMobile = (props) =>{
             <Accordion.Header className="accordion-header-first">Nutricion</Accordion.Header>
             <Accordion.Body>
                 <ListGroup.Item>
-                    <Link to="/nutricion-culturista">Nutrición Culturista</Link>
-                    <Link to="/nutricion-y-vida-saludable">Nutrición y Vida Saludable</Link>
-                    <Link to="/nutricion-carbohidratos">Carbohidratos</Link>
-                    <Link to="/nutricion-grasas">Grasas</Link>
-                    <Link to="/nutricion-proteinas">Proteínas</Link>
+                    <Link  onClick={props.onClick} to="/nutricion-culturista">Nutrición Culturista</Link>
+                    <Link  onClick={props.onClick} to="/nutricion-y-vida-saludable">Nutrición y Vida Saludable</Link>
+                    <Link  onClick={props.onClick} to="/nutricion-carbohidratos">Carbohidratos</Link>
+                    <Link  onClick={props.onClick} to="/nutricion-grasas">Grasas</Link>
+                    <Link  onClick={props.onClick} to="/nutricion-proteinas">Proteínas</Link>
                 </ListGroup.Item>
             </Accordion.Body>
             </Accordion.Item>
@@ -85,15 +85,15 @@ const DesplegableMobile = (props) =>{
             <Accordion.Header className="accordion-header-first">Suplementos</Accordion.Header>
             <Accordion.Body>
                 <ListGroup.Item>
-                    <Link to="/suplementos-como-suplementarse">Como Suplementarse</Link>
-                    <Link to="/suplementos-vitaminas-y-minerales">Vitaminas y minerales</Link>
-                    <Link to="/suplementos-aminoacidos">Aminoacidos</Link>
-                    <Link to="/suplementos-cafeina">Suplementos Cafeína</Link>
-                    <Link to="/suplementos-creatina">Suplementos Creatina</Link>
-                    <Link to="/suplementos-glutamina">Suplementos Glutamina</Link>
-                    <Link to="/suplementos-proteinas">Suplementos Proteinas</Link>
-                    <Link to="/suplementos-comprar-proteinas">Comprar Proteínas </Link>
-                    <Link to="/suplementos-otros">Otros Suplementos</Link>
+                    <Link onClick={props.onClick} to="/suplementos-como-suplementarse">Como Suplementarse</Link>
+                    <Link onClick={props.onClick} to="/suplementos-vitaminas-y-minerales">Vitaminas y minerales</Link>
+                    <Link onClick={props.onClick} to="/suplementos-aminoacidos">Aminoacidos</Link>
+                    <Link onClick={props.onClick} to="/suplementos-cafeina">Suplementos Cafeína</Link>
+                    <Link onClick={props.onClick} to="/suplementos-creatina">Suplementos Creatina</Link>
+                    <Link onClick={props.onClick} to="/suplementos-glutamina">Suplementos Glutamina</Link>
+                    <Link onClick={props.onClick} to="/suplementos-proteinas">Suplementos Proteinas</Link>
+                    <Link onClick={props.onClick} to="/suplementos-comprar-proteinas">Comprar Proteínas </Link>
+                    <Link onClick={props.onClick} to="/suplementos-otros">Otros Suplementos</Link>
                 </ListGroup.Item>
             </Accordion.Body>
             </Accordion.Item>
@@ -101,8 +101,8 @@ const DesplegableMobile = (props) =>{
             <Accordion.Header className="accordion-header-first">Dietas</Accordion.Header>
             <Accordion.Body>
                 <ListGroup.Item>
-                    <Link to="/dietas-masa-muscular">Masa Muscular</Link>
-                    <Link to="/dietas-definicion-muscular">Definición Muscular</Link>
+                    <Link onClick={props.onClick} to="/dietas-masa-muscular">Masa Muscular</Link>
+                    <Link onClick={props.onClick} to="/dietas-definicion-muscular">Definición Muscular</Link>
                 </ListGroup.Item>
             </Accordion.Body>
             </Accordion.Item>
@@ -110,8 +110,8 @@ const DesplegableMobile = (props) =>{
             <Accordion.Header className="accordion-header-first">Mujer</Accordion.Header>
             <Accordion.Body>
                 <ListGroup.Item>
-                    <Link to="/mujer-dietas-y-nutricion">Dietas y nutrición</Link>
-                    <Link to="/mujer-pesas-y-entrenamientos">Pesas y Entramientos</Link>
+                    <Link onClick={props.onClick} to="/mujer-dietas-y-nutricion">Dietas y nutrición</Link>
+                    <Link onClick={props.onClick} to="/mujer-pesas-y-entrenamientos">Pesas y Entramientos</Link>
                 </ListGroup.Item>
             </Accordion.Body>
             </Accordion.Item>
@@ -119,11 +119,11 @@ const DesplegableMobile = (props) =>{
             <Accordion.Header className="accordion-header-first">Objetivos</Accordion.Header>
             <Accordion.Body>
                 <ListGroup.Item>
-                    <Link to="/objetivo-quemar-grasa">Quemar Grasa</Link>
-                    <Link to="/objetivo-ganar-masa-muscular">Ganar Masa Muscular</Link>
-                    <Link to="/objetivo-ganar-peso">Ganar Peso</Link>
-                    <Link to="/objetivo-perder-peso">Perder Peso</Link>
-                    <Link to="/objetivo-definicion-muscular">Definición Muscular</Link>
+                    <Link onClick={props.onClick} to="/objetivo-quemar-grasa">Quemar Grasa</Link>
+                    <Link onClick={props.onClick} to="/objetivo-ganar-masa-muscular">Ganar Masa Muscular</Link>
+                    <Link onClick={props.onClick} to="/objetivo-ganar-peso">Ganar Peso</Link>
+                    <Link onClick={props.onClick} to="/objetivo-perder-peso">Perder Peso</Link>
+                    <Link onClick={props.onClick} to="/objetivo-definicion-muscular">Definición Muscular</Link>
                 </ListGroup.Item>
             </Accordion.Body>
             </Accordion.Item>
