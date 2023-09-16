@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 const Desplegable = (props) =>{
 
@@ -6,12 +7,12 @@ const Desplegable = (props) =>{
                 <ul>
                     <li className={props.styles[0]}><span className={props.styles[0]}>Entrenamiento</span>
                         <ul className={props.styles[1]}>
-                            <a className="desplegable" href="/musculacion">Musculación</a>
-                            <a className="desplegable" href="/entrenamiento-alta-intensidad">Hit</a>
-                            <a className="desplegable" href="/principiantes">Principiantes</a>
-                            <a className="desplegable" href="/ejercicio-aerobico">Ejercicio Aerobico</a>
-                            <a className="desplegable" href="/culturistas">Culturistas</a>
-                            <a className="desplegable" href="/estiramientos">Estiramientos</a>
+                            <a className="desplegable"><Link onClick={props.onClick} to="/musculacion">Musculación</Link></a>
+                            <a className="desplegable"><Link onClick={props.onClick} to="/entrenamiento-alta-intensidad">Hit</Link></a>
+                            <a className="desplegable"><Link onClick={props.onClick} to="/principiantes">Principiantes</Link></a>
+                            <a className="desplegable"><Link onClick={props.onClick} to="/ejercicio-aerobico">Ejercicio Aerobico</Link></a>
+                            <a className="desplegable"><Link onClick={props.onClick} to="/culturistas">Culturistas</Link></a>
+                            <a className="desplegable"><Link onClick={props.onClick} to="/estiramientos">Estiramientos</Link></a>
                         </ul>
                     </li>
                     <li className={props.styles[0]}><span className={props.styles[0]}>Por Músculo</span>
